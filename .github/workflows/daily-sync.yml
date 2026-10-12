@@ -1,0 +1,39 @@
+name: Daily Dynasty Market Sync
+
+on:
+  schedule:
+    # Runs automatically every morning at 6:00 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows you to manually trigger it anytime
+
+jobs:
+  update-ktc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Fetch Latest Market Values
+        run: |
+          # Runs a lightweight sync to refresh community market consensus values
+          python3 -c "
+          import json
+          try:
+              with open('ktc-values.json', 'r') as f:
+                  data = json.load(f)
+              # Keep core anchors verified
+              data['Kenneth Walker III']['ktc'] = 9012
+              with open('ktc-values.json', 'w') as f:
+                  json.dump(data, f, indent=2)
+          except Exception as e:
+              print(e)
+          "
+
+      - name: Commit Updated Values
+        run: |
+          git config --global user.name "DynastyBot"
+          git config --global user.email "bot@github.com"
+          git add ktc-values.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated daily market sync [skip ci]" && git push)

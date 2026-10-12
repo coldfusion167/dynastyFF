@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dynasty League - 2026 Rosters & KTC Trade Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen">
+
+    <!-- Header -->
+    <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-30 shadow-xl">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+                <h1 class="text-2xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">
+                    The Dynasty League <span class="text-xs uppercase bg-slate-800 text-slate-300 px-2 py-1 rounded-md ml-2 border border-slate-700 font-semibold">2026 Season</span>
+                </h1>
+                <p class="text-xs text-slate-400 mt-1">14-Team PPR Dynasty Hub • Standard 1-QB KTC Calibrated</p>
+            </div>
+            
+            <div class="flex items-center gap-3">
+                <button onclick="switchView('rosters')" id="navRosters" class="px-4 py-2 text-xs font-bold rounded-xl bg-emerald-600 text-white shadow-lg transition">All Rosters</button>
+                <button onclick="switchView('calculator')" id="navCalculator" class="px-4 py-2 text-xs font-bold rounded-xl bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition">KTC Trade Calculator</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        
+        <!-- VIEW 1: ROSTERS -->
+        <div id="rostersView">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 mb-6">
+                <div class="w-full sm:w-80 relative">
+                    <input type="text" id="globalSearch" placeholder="Search player across all rosters..." 
+                        class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 shadow-inner">
+                    <div id="searchResults" class="absolute left-0 right-0 mt-2 bg-slate-900 border border-slate-700 rounded-xl shadow-2xl max-h-80 overflow-y-auto z-50 hidden divide-y divide-slate-800"></div>
+                </div>
+                <div class="flex gap-2 w-full sm:w-auto justify-end">
+                    <button onclick="filterTeams('all')" id="filterAll" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-emerald-600 text-white shadow-md transition">All 14 Teams</button>
+                    <button onclick="filterTeams('user')" id="filterUser" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition">My Team</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="rostersContainer">
+                
+                <!-- 1. Coochie Bruisers -->
+                <div class="team-card bg-slate-900/95 border-2 border-emerald-500/80 rounded-2xl shadow-xl shadow-emerald-950/40 overflow-hidden flex flex-col relative" data-team="user">
+                    <div class="absolute top-0 right-0 bg-emerald-500 text-slate-950 text-[10px] font-extrabold px-3 py-1 rounded-bl-xl uppercase tracking-wider">Your Team</div>
+                    <div class="p-5 border-b border-slate-800 bg-emerald-950/20">
+                        <h3 class="text-xl font-bold text-emerald-400">Coochie Bruisers</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by AnthonyC • <span class="text-amber-400 font-semibold">1-3-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div>
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Starters</h4>
+                            <div class="space-y-1 text-xs">
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">QB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Trevor Lawrence')">Trevor Lawrence (Jax)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('David Montgomery')">David Montgomery (Det)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Tony Pollard')">Tony Pollard (Ten)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Carnell Tate')">Carnell Tate (Jax)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Brian Thomas Jr.')">Brian Thomas Jr. (Jax)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Keenan Allen')">Keenan Allen (Ind)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Chig Okonkwo')">Chig Okonkwo (Ten)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">W/R/T</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jakobi Meyers')">Jakobi Meyers (LV)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">W/R/T</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Austin Ekeler')">Austin Ekeler (Was)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">K</span><span class="text-slate-300">Matt Gay (Ind)</span></div>
+                                <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">DEF</span><span class="text-slate-300">Patriots DEF (NE)</span></div>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">Bench & IR</h4>
+                            <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Stefon Diggs')">Stefon Diggs</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Kenneth Walker III')">Kenneth Walker III</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Colby Parkinson')">Colby Parkinson</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Travis Hunter')">Travis Hunter</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jaylen Wright')">Jaylen Wright</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Ray Davis')">Ray Davis</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Darnell Mooney')">Darnell Mooney</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Tyreek Hill')">Tyreek Hill</div>
+                                <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Zach Charbonnet')">Charbonnet (IR)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Master Baders -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Master Baders</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Rob B • <span class="text-emerald-400 font-semibold">4-0-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">QB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Josh Allen')">Josh Allen (Buf)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Derrick Henry')">Derrick Henry (Bal)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jaylen Warren')">Jaylen Warren (Pit)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Drake London')">Drake London (Atl)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Davante Adams')">Davante Adams (LAR)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Tee Higgins')">Tee Higgins (Cin)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Dalton Kincaid')">Dalton Kincaid (Buf)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">W/R/T</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('J.K. Dobbins')">J.K. Dobbins (Den)</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('C.J. Stroud')">C.J. Stroud</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Joe Mixon')">Joe Mixon</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('T.J. Hockenson')">T.J. Hockenson</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('A.J. Brown')">A.J. Brown (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Bad Luck Brian -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Bad Luck Brian</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Brian • <span class="text-emerald-400 font-semibold">3-1-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Bijan Robinson')">Bijan Robinson (Atl)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Zay Flowers')">Zay Flowers (Bal)</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Wan\'Dale Robinson')">Wan'Dale Robinson</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Marvin Harrison Jr.')">M. Harrison Jr.</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Kyle Pitts Sr.')">Kyle Pitts Sr.</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Xavier Worthy')">Xavier Worthy</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Isiah Pacheco')">Pacheco (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Ell Da Man -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Ell Da Man</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by micarb • <span class="text-emerald-400 font-semibold">3-1-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Christian McCaffrey')">Christian McCaffrey</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Mike Evans')">Mike Evans</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Lamar Jackson')">Lamar Jackson</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Travis Kelce')">Travis Kelce</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Cooper Kupp')">Cooper Kupp</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('James Conner')">Conner (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. JeTs FaNs GeT Lald -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">JeTs FaNs GeT Lald</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by eric • <span class="text-emerald-400 font-semibold">3-1-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('CeeDee Lamb')">CeeDee Lamb</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Puka Nacua')">Puka Nacua</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Trey McBride')">Trey McBride</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jalen Hurts')">Jalen Hurts</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Travis Etienne Jr.')">Travis Etienne Jr.</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('De\'Von Achane')">Achane (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Bull Market Bully -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Bull Market Bully</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Andrew • <span class="text-amber-400 font-semibold">2-2-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">QB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Joe Burrow')">Joe Burrow</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Nico Collins')">Nico Collins</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Deebo Samuel Sr.')">Deebo Samuel Sr.</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Rashee Rice')">Rashee Rice</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Drake Maye')">Drake Maye</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Hawk Tuata Time -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Hawk Tuata Time</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by jonathan • <span class="text-amber-400 font-semibold">2-2-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Garrett Wilson')">Garrett Wilson</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Malik Nabers')">Malik Nabers</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Breece Hall')">Breece Hall</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Caleb Williams')">Caleb Williams</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8. House of Peyton -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">House of Peyton</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by dan • <span class="text-amber-400 font-semibold">2-2-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('James Cook III')">James Cook III</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Sam LaPorta')">Sam LaPorta</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Saquon Barkley')">Saquon Barkley</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Cam Ward')">Cam Ward</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 9. Largest Army -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Largest Army</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Adam • <span class="text-amber-400 font-semibold">2-2-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Justin Jefferson')">Justin Jefferson</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jaxon Smith-Njigba')">J. Smith-Njigba</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Chris Olave')">Chris Olave</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Brock Purdy')">Brock Purdy</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Tank Dell')">Tank Dell (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. The Beef Nuggets -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">The Beef Nuggets</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Ryan • <span class="text-amber-400 font-semibold">2-2-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Chase Brown')">Chase Brown</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Amon-Ra St. Brown')">Amon-Ra St. Brown</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('George Kittle')">George Kittle</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Patrick Mahomes')">Patrick Mahomes</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jaylen Waddle')">Jaylen Waddle</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11. Deezzzz Nutzzzz -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Deezzzz Nutzzzz</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Bryan • <span class="text-red-400 font-semibold">1-3-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Kyren Williams')">Kyren Williams</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Brock Bowers')">Brock Bowers</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Rome Odunze')">Rome Odunze</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Josh Jacobs')">Josh Jacobs</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12. robs rad team -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">robs rad team</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Rob • <span class="text-red-400 font-semibold">1-3-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jonathan Taylor')">Jonathan Taylor</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Ja\'Marr Chase')">Ja'Marr Chase</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('DK Metcalf')">DK Metcalf</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jordan Love')">Jordan Love</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 13. Vontae Mack -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Vontae Mack</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by tim • <span class="text-red-400 font-semibold">1-3-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Ashton Jeanty')">Ashton Jeanty</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">TE</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Mark Andrews')">Mark Andrews</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('DeVonta Smith')">DeVonta Smith</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Ladd McConkey')">Ladd McConkey</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 14. Waterboys -->
+                <div class="team-card bg-slate-900 border border-slate-800 rounded-2xl shadow-xl overflow-hidden flex flex-col" data-team="other">
+                    <div class="p-5 border-b border-slate-800 bg-slate-950/40">
+                        <h3 class="text-xl font-bold text-slate-100">Waterboys</h3>
+                        <p class="text-xs text-slate-400 mt-0.5">Managed by Chris • <span class="text-red-400 font-semibold">1-3-0</span></p>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col gap-4 text-sm">
+                        <div class="space-y-1 text-xs">
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">RB</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jahmyr Gibbs')">Jahmyr Gibbs</span></div>
+                            <div class="flex justify-between bg-slate-950/60 p-2 rounded-lg border border-slate-800/60"><span class="text-slate-400 font-medium">WR</span><span class="player-link font-semibold text-slate-200 cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('George Pickens')">George Pickens</span></div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-1.5 text-xs text-slate-300">
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jayden Daniels')">Jayden Daniels</div>
+                            <div class="p-1.5 bg-slate-950/30 rounded border border-slate-800/40 player-link cursor-pointer hover:text-emerald-400" onclick="openPlayerCard('Jonathon Brooks')">Brooks (IR)</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- VIEW 2: KTC TRADE CALCULATOR -->
+        <div id="calculatorView" class="hidden">
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-slate-800">
+                    <div>
+                        <h2 class="text-xl font-bold text-emerald-400">KeepTradeCut Trade Engine</h2>
+                        <p class="text-xs text-slate-400 mt-1">Calibrated for 14-Team 1-QB Full PPR dynasty leagues with draft capital tracking.</p>
+                    </div>
+                    <button onclick="resetCalculator()" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 transition">Reset Trade</button>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <!-- SIDE A -->
+                    <div class="bg-slate-950/60 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-sm font-bold text-cyan-400 uppercase tracking-wider">Side A (Giving)</h3>
+                            <span id="sideATotal" class="text-lg font-extrabold text-white">0 KTC</span>
+                        </div>
+                        <select id="selectSideA" onchange="addPlayerToSide('A')" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                            <option value="">-- Add Player or Draft Pick --</option>
+                        </select>
+                        <div id="listSideA" class="space-y-2 min-h-36 bg-slate-900/40 border border-slate-800/60 rounded-lg p-3">
+                            <p class="text-xs text-slate-500 text-center py-8">No assets selected yet.</p>
+                        </div>
+                    </div>
+
+                    <!-- SIDE B -->
+                    <div class="bg-slate-950/60 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-sm font-bold text-cyan-400 uppercase tracking-wider">Side B (Receiving)</h3>
+                            <span id="sideBTotal" class="text-lg font-extrabold text-white">0 KTC</span>
+                        </div>
+                        <select id="selectSideB" onchange="addPlayerToSide('B')" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-xs text-slate-200 focus:outline-none focus:ring-2 focus:ring-cyan-500">
+                            <option value="">-- Add Player or Draft Pick --</option>
+                        </select>
+                        <div id="listSideB" class="space-y-2 min-h-36 bg-slate-900/40 border border-slate-800/60 rounded-lg p-3">
+                            <p class="text-xs text-slate-500 text-center py-8">No assets selected yet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verdict -->
+                <div class="mt-6 bg-slate-950 border border-slate-800 rounded-xl p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div>
+                        <span class="text-xs uppercase font-bold text-slate-400 tracking-wider block">KTC Market Verdict</span>
+                        <span id="tradeVerdict" class="text-base font-bold text-slate-300 mt-0.5 block">Select assets on both sides to evaluate.</span>
+                    </div>
+                    <div class="text-right">
+                        <span class="text-xs uppercase font-bold text-slate-400 tracking-wider block">Value Differential</span>
+                        <span id="tradeDiff" class="text-xl font-extrabold text-emerald-400">0 pts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="playerModal" class="fixed inset-0 bg-slate-950/85 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-slate-900 border border-slate-700 w-full max-w-md rounded-2xl shadow-2xl overflow-hidden transform transition-all">
+            <div class="p-5 border-b border-slate-800 flex justify-between items-center bg-slate-950/50">
+                <div>
+                    <h3 id="modalPlayerName" class="text-lg font-bold text-emerald-400">Player</h3>
+                    <p id="modalPlayerMeta" class="text-xs text-slate-400">Dynasty Asset • KeepTradeCut Database</p>
+                </div>
+                <button onclick="closePlayerModal()" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 w-8 h-8 rounded-full flex items-center justify-center font-bold transition">✕</button>
+            </div>
+            <div class="p-6 space-y-4">
+                <div class="bg-slate-950/60 p-4 rounded-xl border border-slate-800">
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">1-QB Dynasty Valuation</h4>
+                    <div class="grid grid-cols-2 gap-3 text-center">
+                        <div class="bg-slate-900 p-3 rounded-lg border border-slate-800">
+                            <span class="block text-xs text-slate-400">KTC Value</span>
+                            <span id="modalPlayerKtc" class="text-sm font-extrabold text-emerald-400 mt-0.5 block">0</span>
+                        </div>
+                        <div class="bg-slate-900 p-3 rounded-lg border border-slate-800">
+                            <span class="block text-xs text-slate-400">Trade Action</span>
+                            <span id="modalPlayerAction" class="text-sm font-bold text-cyan-400 mt-0.5 block">Hold</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-xs text-slate-300 bg-slate-950/40 p-4 rounded-xl border border-slate-800/60 leading-relaxed">
+                    <span class="font-bold text-slate-100 block mb-1">Roster Strategy:</span>
+                    <span id="modalPlayerNotes">Analyzing historical market data and career trajectory.</span>
+                </div>
+            </div>
+            <div class="p-4 bg-slate-950/50 border-t border-slate-800 flex justify-end">
+                <button onclick="closePlayerModal()" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-xs font-semibold rounded-lg text-slate-200 transition">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Calibrated KeepTradeCut Database (14-Team 1-QB Standard Dynasty)
+        const ktcDatabase = {
+            // Top Tier Dynasty Anchors
+            "Justin Jefferson": { ktc: 9650, action: "Untouchable WR", notes: "Top overall dynasty wide receiver in 1-QB formats." },
+            "Ja'Marr Chase": { ktc: 9600, action: "Untouchable WR", notes: "Elite WR1 foundation asset with year-over-year production." },
+            "CeeDee Lamb": { ktc: 9550, action: "Core Anchor", notes: "Peak WR1 in the prime of his athletic career." },
+            "Bijan Robinson": { ktc: 9400, action: "Top Dynasty RB", notes: "Three-down workhorse with elite age profile." },
+            "Jahmyr Gibbs": { ktc: 9150, action: "Elite RB Anchor", notes: "Explosive PPR pass-catching floor with tremendous upside." },
+            "Amon-Ra St. Brown": { ktc: 9000, action: "WR1 Core", notes: "High target floor receiver with exceptional consistency." },
+            "Marvin Harrison Jr.": { ktc: 8850, action: "Cornerstone", notes: "Elite prospect profile and insulated volume." },
+            "Malik Nabers": { ktc: 8700, action: "Cornerstone", notes: "Dynamic young alpha wide receiver." },
+            "Brock Bowers": { ktc: 8400, action: "TE1 Anchor", notes: "Dominant positional advantage at tight end." },
+            "Breece Hall": { ktc: 8300, action: "Elite RB", notes: "Top-tier three-down running back asset." },
+
+            // Rebuilding & High-Value Assets
+            "Brian Thomas Jr.": { ktc: 7450, action: "Cornerstone Hold", notes: "High draft capital young receiver; central rebuild piece." },
+            "Kenneth Walker III": { ktc: 7350, action: "Heavy Anchor / Hold", notes: "Elite workhorse role in Kansas City. Do not sell below two 1st-round picks." },
+            "Josh Allen": { ktc: 7200, action: "Elite QB1", notes: "Standard 1-QB value ceiling with rushing equity." },
+            "Lamar Jackson": { ktc: 6900, action: "QB1 Anchor", notes: "Dual-threat elite ceiling in 1-QB." },
+            "Jayden Daniels": { ktc: 6850, action: "Young QB Anchor", notes: "Phenomenal rushing floor and long-term runway." },
+            "Drake London": { ktc: 6800, action: "WR1/2 Hold", notes: "Young perimeter alpha with high target rate." },
+            "Trey McBride": { ktc: 6600, action: "Top-3 TE", notes: "Consistent tight end target earner." },
+            "Ashton Jeanty": { ktc: 6500, action: "Rookie Hold", notes: "High-pedigree rookie running back." },
+            "Garrett Wilson": { ktc: 6500, action: "WR1 Hold", notes: "Elite separator with long-term dynasty value." },
+            "Tyreek Hill": { ktc: 6100, action: "Contender Chip", notes: "Sell to top-3 teams looking for a championship push." },
+            "Christian McCaffrey": { ktc: 5900, action: "Win-Now Only", notes: "Peak production asset; zero long-term rebuild value." },
+            "Jonathan Taylor": { ktc: 5800, action: "RB1 Contender", notes: "Reliable workhorse running back." },
+            "Trevor Lawrence": { ktc: 5100, action: "Insulated QB1", notes: "Long-term starting franchise QB." },
+            "Kyren Williams": { ktc: 5400, action: "High-Volume RB", notes: "High touchdown rate and offensive role." },
+            "David Montgomery": { ktc: 4400, action: "Sell to Contender", notes: "Reliable touchdown scorer; leverage for future picks." },
+            "Tony Pollard": { ktc: 3850, action: "Sell High Candidate", notes: "Ideal candidate to flip to Largest Army for a future 2nd-round pick." },
+            "J.K. Dobbins": { ktc: 3400, action: "Short-Term Asset", notes: "High injury profile; retooling rosters should avoid acquiring." },
+            "Keenan Allen": { ktc: 2400, action: "Sell for Any Capital", notes: "Veteran asset near the end of career; trade for younger pieces." },
+            "Austin Ekeler": { ktc: 2300, action: "Rental Sell", notes: "Short-term flex value; cash out before value evaporates." },
+
+            // Draft Capital Picks
+            "2027 Early 1st": { ktc: 6800, action: "Elite Capital", notes: "Projected top-4 rookie pick; premium rebuilding asset." },
+            "2027 Mid 1st": { ktc: 5800, action: "High Capital", notes: "Foundational rookie draft pick." },
+            "2027 Late 1st": { ktc: 4900, action: "Solid Capital", notes: "Late round rookie draft asset." },
+            "2027 Early 2nd": { ktc: 3900, action: "Target Capital", notes: "Great tier for flipping aging veterans like Tony Pollard." },
+            "2027 Mid 2nd": { ktc: 3200, action: "Trade Capital", notes: "Target return for veteran flex players." },
+            "2027 Late 2nd": { ktc: 2600, action: "Trade Capital", notes: "Picks owned by championship contenders like Master Baders." },
+            "2027 3rd Round Pick": { ktc: 1400, action: "Dart Throw", notes: "Rookie stash draft equity." }
+        };
+
+        const dropdownAssets = [
+            "2027 Early 1st", "2027 Mid 1st", "2027 Late 1st",
+            "2027 Early 2nd", "2027 Mid 2nd", "2027 Late 2nd", "2027 3rd Round Pick",
+            "Justin Jefferson", "Ja'Marr Chase", "CeeDee Lamb", "Bijan Robinson", "Jahmyr Gibbs",
+            "Amon-Ra St. Brown", "Marvin Harrison Jr.", "Malik Nabers", "Brock Bowers", "Breece Hall",
+            "Brian Thomas Jr.", "Kenneth Walker III", "Josh Allen", "Lamar Jackson", "Jayden Daniels",
+            "Drake London", "Trey McBride", "Garrett Wilson", "Tyreek Hill", "Christian McCaffrey",
+            "Jonathan Taylor", "Trevor Lawrence", "Kyren Williams", "David Montgomery", "Tony Pollard",
+            "J.K. Dobbins", "Keenan Allen", "Austin Ekeler"
+        ];
+
+        const selectA = document.getElementById('selectSideA');
+        const selectB = document.getElementById('selectSideB');
+
+        dropdownAssets.forEach(p => {
+            const val = ktcDatabase[p] ? ktcDatabase[p].ktc : 3000;
+            const optA = document.createElement('option');
+            optA.value = p;
+            optA.text = `${p} (${val.toLocaleString()} KTC)`;
+            selectA.appendChild(optA);
+
+            const optB = document.createElement('option');
+            optB.value = p;
+            optB.text = `${p} (${val.toLocaleString()} KTC)`;
+            selectB.appendChild(optB);
+        });
+
+        let sideA_assets = [];
+        let sideB_assets = [];
+
+        function addPlayerToSide(side) {
+            const selectElem = document.getElementById(side === 'A' ? 'selectSideA' : 'selectSideB');
+            const name = selectElem.value;
+            if(!name) return;
+
+            const asset = { name: name, ktc: ktcDatabase[name] ? ktcDatabase[name].ktc : 3000 };
+            if(side === 'A') sideA_assets.push(asset);
+            else sideB_assets.push(asset);
+
+            selectElem.value = "";
+            renderSide(side);
+            calculateTrade();
+        }
+
+        function removeAsset(side, idx) {
+            if(side === 'A') sideA_assets.splice(idx, 1);
+            else sideB_assets.splice(idx, 1);
+            renderSide(side);
+            calculateTrade();
+        }
+
+        function renderSide(side) {
+            const listElem = document.getElementById(side === 'A' ? 'listSideA' : 'listSideB');
+            const assets = side === 'A' ? sideA_assets : sideB_assets;
+
+            if(assets.length === 0) {
+                listElem.innerHTML = `<p class="text-xs text-slate-500 text-center py-8">No assets selected yet.</p>`;
+                return;
+            }
+
+            listElem.innerHTML = assets.map((a, idx) => `
+                <div class="flex justify-between items-center bg-slate-900 border border-slate-700 p-2.5 rounded-lg text-xs text-slate-200">
+                    <div>
+                        <span class="font-bold block">${a.name}</span>
+                        <span class="text-emerald-400 text-[10px] font-semibold">${a.ktc.toLocaleString()} KTC pts</span>
+                    </div>
+                    <button onclick="removeAsset('${side}', ${idx})" class="text-slate-400 hover:text-red-400 font-bold px-2 py-1">✕</button>
+                </div>
+            `).join('');
+        }
+
+        function calculateTrade() {
+            const totalA = sideA_assets.reduce((sum, a) => sum + a.ktc, 0);
+            const totalB = sideB_assets.reduce((sum, a) => sum + a.ktc, 0);
+
+            document.getElementById('sideATotal').innerText = totalA.toLocaleString() + " KTC";
+            document.getElementById('sideBTotal').innerText = totalB.toLocaleString() + " KTC";
+
+            const diff = totalA - totalB;
+            const absDiff = Math.abs(diff);
+            document.getElementById('tradeDiff').innerText = absDiff.toLocaleString() + " pts";
+
+            const verdict = document.getElementById('tradeVerdict');
+            if(sideA_assets.length === 0 && sideB_assets.assets === 0) {
+                verdict.innerText = "Select assets on both sides to evaluate.";
+                verdict.className = "text-base font-bold text-slate-300 mt-0.5 block";
+                return;
+            }
+
+            if(absDiff < 400) {
+                verdict.innerText = "Fair Trade (Even Market Consensus)";
+                verdict.className = "text-base font-bold text-emerald-400 mt-0.5 block";
+            } else if(diff > 0) {
+                verdict.innerText = "Side A Giving More Value (+ Overpay)";
+                verdict.className = "text-base font-bold text-cyan-400 mt-0.5 block";
+            } else {
+                verdict.innerText = "Side B Giving More Value (+ Overpay)";
+                verdict.className = "text-base font-bold text-cyan-400 mt-0.5 block";
+            }
+        }
+
+        function resetCalculator() {
+            sideA_assets = [];
+            sideB_assets = [];
+            renderSide('A');
+            renderSide('B');
+            calculateTrade();
+        }
+
+        function switchView(view) {
+            const rostersView = document.getElementById('rostersView');
+            const calcView = document.getElementById('calculatorView');
+            const navRosters = document.getElementById('navRosters');
+            const navCalc = document.getElementById('navCalculator');
+
+            if(view === 'calculator') {
+                rostersView.classList.add('hidden');
+                calcView.classList.remove('hidden');
+                navCalc.className = "px-4 py-2 text-xs font-bold rounded-xl bg-emerald-600 text-white shadow-lg transition";
+                navRosters.className = "px-4 py-2 text-xs font-bold rounded-xl bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition";
+            } else {
+                calcView.classList.add('hidden');
+                rostersView.classList.remove('hidden');
+                navRosters.className = "px-4 py-2 text-xs font-bold rounded-xl bg-emerald-600 text-white shadow-lg transition";
+                navCalc.className = "px-4 py-2 text-xs font-bold rounded-xl bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition";
+            }
+        }
+
+        function filterTeams(type) {
+            const cards = document.querySelectorAll('.team-card');
+            const btnAll = document.getElementById('filterAll');
+            const btnUser = document.getElementById('filterUser');
+            
+            if(type === 'user') {
+                cards.forEach(card => card.style.display = card.getAttribute('data-team') === 'user' ? 'flex' : 'none');
+                btnUser.className = "px-3 py-1.5 text-xs font-semibold rounded-lg bg-emerald-600 text-white shadow-md transition";
+                btnAll.className = "px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition";
+            } else {
+                cards.forEach(card => card.style.display = 'flex');
+                btnAll.className = "px-3 py-1.5 text-xs font-semibold rounded-lg bg-emerald-600 text-white shadow-md transition";
+                btnUser.className = "px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-800 text-slate-300 border border-slate-700 hover:bg-slate-700 transition";
+            }
+        }
+
+        function openPlayerCard(name) {
+            const cleanName = name.split('(')[0].trim();
+            document.getElementById('modalPlayerName').innerText = cleanName;
+            
+            const info = ktcDatabase[cleanName] || {
+                ktc: 3200,
+                action: "Roster Depth / Hold",
+                notes: "Contributing roster asset across the 2026 dynasty campaign."
+            };
+
+            document.getElementById('modalPlayerKtc').innerText = info.ktc.toLocaleString() + " KTC";
+            document.getElementById('modalPlayerAction').innerText = info.action;
+            document.getElementById('modalPlayerNotes').innerText = info.notes;
+            document.getElementById('playerModal').classList.remove('hidden');
+        }
+
+        function closePlayerModal() {
+            document.getElementById('playerModal').classList.add('hidden');
+        }
+
+        const allLinks = document.querySelectorAll('.player-link');
+        const uniqueSearchNames = [...new Set(Array.from(allLinks).map(el => el.innerText.split('(')[0].trim()))].sort();
+        const searchInput = document.getElementById('globalSearch');
+        const searchBox = document.getElementById('searchResults');
+
+        searchInput.addEventListener('input', function(e) {
+            const q = e.target.value.toLowerCase().trim();
+            if(q.length === 0) {
+                searchBox.classList.add('hidden');
+                return;
+            }
+            const matches = uniqueSearchNames.filter(n => n.toLowerCase().includes(q)).slice(0, 6);
+            if(matches.length > 0) {
+                searchBox.innerHTML = matches.map(m => `
+                    <div class="p-3 text-xs text-slate-200 hover:bg-slate-800 cursor-pointer flex justify-between items-center" onclick="selectSearchPlayer('${m.replace(/'/g, "\\'")}')">
+                        <span>${m}</span>
+                        <span class="text-emerald-400 font-semibold text-[10px]">Open Card</span>
+                    </div>
+                `).join('');
+                searchBox.classList.remove('hidden');
+            } else {
+                searchBox.innerHTML = `<div class="p-3 text-xs text-slate-500">No players found</div>`;
+                searchBox.classList.remove('hidden');
+            }
+        });
+
+        function selectSearchPlayer(name) {
+            searchBox.classList.add('hidden');
+            searchInput.value = name;
+            openPlayerCard(name);
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('playerModal');
+            if (event.target === modal) closePlayerModal();
+        }
+    </script>
+</body>
+</html>

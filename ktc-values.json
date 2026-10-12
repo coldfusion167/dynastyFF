@@ -1,5 +1,17 @@
 {
-  "Kenneth Walker III": { "ktc": 9012, "action": "Elite Anchor / Do Not Sell", "notes": "Consensus RB3 on KTC. Dominating in Kansas City." },
-  "Tony Pollard": { "ktc": 3850, "action": "Sell High", "notes": "Target 2027 2nd round pick in return." },
-  "Brian Thomas Jr.": { "ktc": 7450, "action": "Cornerstone", "notes": "Alpha WR target earner." }
+  "Kenneth Walker III": {
+    "ktc": 9012,
+    "action": "Elite Anchor / Do Not Sell",
+    "notes": "Consensus RB3 on KTC. Dominating in Kansas City."
+  },
+  "Tony Pollard": {
+    "ktc": 3850,
+    "action": "Sell High",
+    "notes": "Target 2027 2nd round pick in return."
+  },
+  "Brian Thomas Jr.": {
+    "ktc": 7450,
+    "action": "Cornerstone",
+    "notes": "Alpha WR target earner."
+  }
 }

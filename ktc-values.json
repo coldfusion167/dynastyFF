@@ -1,2098 +1,2103 @@
 {
   "Jahmyr Gibbs": {
-    "ktc": 11154,
+    "ktc": 11105,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 11,154 pts"
+    "notes": "Live Consensus Value: 11,105 pts"
   },
   "Bijan Robinson": {
-    "ktc": 10537,
+    "ktc": 10561,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 10,537 pts"
+    "notes": "Live Consensus Value: 10,561 pts"
   },
   "Jaxon Smith-Njigba": {
-    "ktc": 9635,
+    "ktc": 9608,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 9,635 pts"
+    "notes": "Live Consensus Value: 9,608 pts"
   },
   "Ja'Marr Chase": {
-    "ktc": 8190,
+    "ktc": 8132,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 8,190 pts"
+    "notes": "Live Consensus Value: 8,132 pts"
   },
   "Puka Nacua": {
-    "ktc": 8035,
+    "ktc": 7817,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 8,035 pts"
+    "notes": "Live Consensus Value: 7,817 pts"
   },
   "Kenneth Walker": {
-    "ktc": 7445,
+    "ktc": 7425,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 7,445 pts"
+    "notes": "Live Consensus Value: 7,425 pts"
   },
   "Amon-Ra St. Brown": {
-    "ktc": 7143,
+    "ktc": 7311,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 7,143 pts"
+    "notes": "Live Consensus Value: 7,311 pts"
   },
   "Brock Bowers": {
-    "ktc": 6734,
+    "ktc": 6908,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 6,734 pts"
+    "notes": "Live Consensus Value: 6,908 pts"
   },
   "Malik Nabers": {
-    "ktc": 6630,
+    "ktc": 6569,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 6,630 pts"
+    "notes": "Live Consensus Value: 6,569 pts"
   },
   "CeeDee Lamb": {
-    "ktc": 6397,
+    "ktc": 6453,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 6,397 pts"
-  },
-  "Jonathan Taylor": {
-    "ktc": 6251,
-    "action": "Market Hold",
-    "notes": "Live Consensus Value: 6,251 pts"
+    "notes": "Live Consensus Value: 6,453 pts"
   },
   "Justin Jefferson": {
-    "ktc": 6233,
+    "ktc": 6369,
     "action": "Market Hold",
-    "notes": "Live Consensus Value: 6,233 pts"
+    "notes": "Live Consensus Value: 6,369 pts"
+  },
+  "Jonathan Taylor": {
+    "ktc": 6363,
+    "action": "Market Hold",
+    "notes": "Live Consensus Value: 6,363 pts"
   },
   "Ashton Jeanty": {
-    "ktc": 5857,
+    "ktc": 5920,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,857 pts"
+    "notes": "Live Consensus Value: 5,920 pts"
   },
   "Trey McBride": {
-    "ktc": 5785,
+    "ktc": 5848,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,785 pts"
-  },
-  "Jeremiyah Love": {
-    "ktc": 5623,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,623 pts"
-  },
-  "Josh Allen": {
-    "ktc": 5576,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,576 pts"
+    "notes": "Live Consensus Value: 5,848 pts"
   },
   "James Cook": {
-    "ktc": 5552,
+    "ktc": 5662,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,552 pts"
+    "notes": "Live Consensus Value: 5,662 pts"
+  },
+  "Jeremiyah Love": {
+    "ktc": 5637,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 5,637 pts"
+  },
+  "Josh Allen": {
+    "ktc": 5583,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 5,583 pts"
   },
   "Drake London": {
-    "ktc": 5048,
+    "ktc": 5257,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 5,048 pts"
-  },
-  "Zay Flowers": {
-    "ktc": 4774,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,774 pts"
+    "notes": "Live Consensus Value: 5,257 pts"
   },
   "Chris Olave": {
-    "ktc": 4757,
+    "ktc": 4946,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,757 pts"
+    "notes": "Live Consensus Value: 4,946 pts"
   },
-  "Christian McCaffrey": {
-    "ktc": 4705,
+  "Zay Flowers": {
+    "ktc": 4810,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,705 pts"
+    "notes": "Live Consensus Value: 4,810 pts"
   },
   "Tetairoa McMillan": {
-    "ktc": 4657,
+    "ktc": 4782,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,657 pts"
+    "notes": "Live Consensus Value: 4,782 pts"
+  },
+  "Christian McCaffrey": {
+    "ktc": 4691,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 4,691 pts"
   },
   "Kyren Williams": {
-    "ktc": 4616,
+    "ktc": 4683,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,616 pts"
+    "notes": "Live Consensus Value: 4,683 pts"
   },
   "2027 1st (Early)": {
-    "ktc": 4581,
+    "ktc": 4643,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,581 pts"
+    "notes": "Live Consensus Value: 4,643 pts"
   },
   "Nico Collins": {
-    "ktc": 4398,
+    "ktc": 4519,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,398 pts"
+    "notes": "Live Consensus Value: 4,519 pts"
   },
   "Garrett Wilson": {
-    "ktc": 4244,
+    "ktc": 4375,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,244 pts"
+    "notes": "Live Consensus Value: 4,375 pts"
   },
   "Parker Washington": {
-    "ktc": 4231,
+    "ktc": 4172,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,231 pts"
+    "notes": "Live Consensus Value: 4,172 pts"
   },
   "De'Von Achane": {
-    "ktc": 4152,
+    "ktc": 4128,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4,152 pts"
-  },
-  "Matthew Golden": {
-    "ktc": 3978,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,978 pts"
-  },
-  "Breece Hall": {
-    "ktc": 3857,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,857 pts"
+    "notes": "Live Consensus Value: 4,128 pts"
   },
   "Javonte Williams": {
-    "ktc": 3846,
+    "ktc": 3956,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,846 pts"
+    "notes": "Live Consensus Value: 3,956 pts"
   },
-  "George Pickens": {
-    "ktc": 3784,
+  "Matthew Golden": {
+    "ktc": 3934,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,784 pts"
+    "notes": "Live Consensus Value: 3,934 pts"
   },
   "Bucky Irving": {
-    "ktc": 3766,
+    "ktc": 3885,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,766 pts"
+    "notes": "Live Consensus Value: 3,885 pts"
+  },
+  "Breece Hall": {
+    "ktc": 3859,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,859 pts"
   },
   "Caleb Williams": {
+    "ktc": 3835,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,835 pts"
+  },
+  "Derrick Henry": {
     "ktc": 3764,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 3,764 pts"
   },
-  "Derrick Henry": {
+  "Tyler Warren": {
+    "ktc": 3740,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,740 pts"
+  },
+  "Drake Maye": {
+    "ktc": 3732,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,732 pts"
+  },
+  "George Pickens": {
     "ktc": 3731,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 3,731 pts"
   },
-  "Drake Maye": {
-    "ktc": 3671,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,671 pts"
-  },
   "Christian Watson": {
-    "ktc": 3671,
+    "ktc": 3667,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,671 pts"
+    "notes": "Live Consensus Value: 3,667 pts"
   },
   "Bhayshul Tuten": {
-    "ktc": 3613,
+    "ktc": 3653,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,613 pts"
+    "notes": "Live Consensus Value: 3,653 pts"
   },
-  "Tyler Warren": {
-    "ktc": 3598,
+  "Omarion Hampton": {
+    "ktc": 3567,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,598 pts"
-  },
-  "Lamar Jackson": {
-    "ktc": 3530,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,530 pts"
-  },
-  "Carnell Tate": {
-    "ktc": 3525,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,525 pts"
+    "notes": "Live Consensus Value: 3,567 pts"
   },
   "Chase Brown": {
+    "ktc": 3561,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,561 pts"
+  },
+  "Lamar Jackson": {
+    "ktc": 3552,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,552 pts"
+  },
+  "Carnell Tate": {
+    "ktc": 3509,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,509 pts"
+  },
+  "Colston Loveland": {
     "ktc": 3500,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 3,500 pts"
   },
-  "Colston Loveland": {
-    "ktc": 3452,
+  "Chuba Hubbard": {
+    "ktc": 3447,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,452 pts"
+    "notes": "Live Consensus Value: 3,447 pts"
   },
-  "Omarion Hampton": {
-    "ktc": 3323,
+  "Tee Higgins": {
+    "ktc": 3376,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,323 pts"
+    "notes": "Live Consensus Value: 3,376 pts"
   },
-  "Joe Burrow": {
-    "ktc": 3316,
+  "Emeka Egbuka": {
+    "ktc": 3349,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,316 pts"
+    "notes": "Live Consensus Value: 3,349 pts"
   },
   "Luther Burden": {
+    "ktc": 3319,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3,319 pts"
+  },
+  "Joe Burrow": {
     "ktc": 3315,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 3,315 pts"
   },
-  "Chuba Hubbard": {
-    "ktc": 3279,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,279 pts"
-  },
-  "Tee Higgins": {
-    "ktc": 3244,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,244 pts"
-  },
   "Brock Purdy": {
-    "ktc": 3243,
+    "ktc": 3256,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,243 pts"
-  },
-  "DeVonta Smith": {
-    "ktc": 3199,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,199 pts"
-  },
-  "Emeka Egbuka": {
-    "ktc": 3155,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,155 pts"
+    "notes": "Live Consensus Value: 3,256 pts"
   },
   "D'Andre Swift": {
-    "ktc": 3152,
+    "ktc": 3232,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,152 pts"
+    "notes": "Live Consensus Value: 3,232 pts"
   },
   "Saquon Barkley": {
-    "ktc": 3118,
+    "ktc": 3221,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,118 pts"
-  },
-  "Trevor Lawrence": {
-    "ktc": 3097,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,097 pts"
+    "notes": "Live Consensus Value: 3,221 pts"
   },
   "Sam LaPorta": {
-    "ktc": 3086,
+    "ktc": 3208,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,086 pts"
+    "notes": "Live Consensus Value: 3,208 pts"
   },
-  "A.J. Brown": {
-    "ktc": 3067,
+  "Trevor Lawrence": {
+    "ktc": 3138,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,067 pts"
+    "notes": "Live Consensus Value: 3,138 pts"
   },
   "Jordyn Tyson": {
-    "ktc": 3049,
+    "ktc": 3126,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,049 pts"
+    "notes": "Live Consensus Value: 3,126 pts"
   },
-  "2027 1st (Mid)": {
-    "ktc": 3016,
+  "DeVonta Smith": {
+    "ktc": 3080,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,016 pts"
-  },
-  "Isaiah Likely": {
-    "ktc": 3006,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 3,006 pts"
-  },
-  "Jaylen Warren": {
-    "ktc": 2870,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,870 pts"
-  },
-  "Rashee Rice": {
-    "ktc": 2854,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,854 pts"
-  },
-  "Jayden Daniels": {
-    "ktc": 2850,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,850 pts"
+    "notes": "Live Consensus Value: 3,080 pts"
   },
   "Quinshon Judkins": {
-    "ktc": 2839,
+    "ktc": 3065,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,839 pts"
+    "notes": "Live Consensus Value: 3,065 pts"
   },
-  "Patrick Mahomes": {
-    "ktc": 2825,
+  "2027 1st (Mid)": {
+    "ktc": 3058,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,825 pts"
+    "notes": "Live Consensus Value: 3,058 pts"
   },
-  "2027 1st": {
-    "ktc": 2730,
+  "A.J. Brown": {
+    "ktc": 3012,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,730 pts"
+    "notes": "Live Consensus Value: 3,012 pts"
   },
-  "Jalen Coker": {
-    "ktc": 2669,
+  "Isaiah Likely": {
+    "ktc": 2979,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,669 pts"
-  },
-  "Tucker Kraft": {
-    "ktc": 2616,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,616 pts"
+    "notes": "Live Consensus Value: 2,979 pts"
   },
   "Josh Jacobs": {
-    "ktc": 2575,
+    "ktc": 2883,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,575 pts"
+    "notes": "Live Consensus Value: 2,883 pts"
+  },
+  "Patrick Mahomes": {
+    "ktc": 2878,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,878 pts"
+  },
+  "Jayden Daniels": {
+    "ktc": 2844,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,844 pts"
+  },
+  "Jalen Coker": {
+    "ktc": 2776,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,776 pts"
+  },
+  "Jaylen Warren": {
+    "ktc": 2771,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,771 pts"
+  },
+  "2027 1st": {
+    "ktc": 2765,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,765 pts"
   },
   "Denzel Boston": {
-    "ktc": 2570,
+    "ktc": 2671,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,570 pts"
+    "notes": "Live Consensus Value: 2,671 pts"
   },
-  "George Kittle": {
-    "ktc": 2570,
+  "Rashee Rice": {
+    "ktc": 2654,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,570 pts"
+    "notes": "Live Consensus Value: 2,654 pts"
   },
-  "TreVeyon Henderson": {
-    "ktc": 2461,
+  "Tucker Kraft": {
+    "ktc": 2628,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,461 pts"
-  },
-  "Jordan Love": {
-    "ktc": 2451,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,451 pts"
+    "notes": "Live Consensus Value: 2,628 pts"
   },
   "Ladd McConkey": {
-    "ktc": 2437,
+    "ktc": 2524,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,437 pts"
-  },
-  "Michael Wilson": {
-    "ktc": 2416,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,416 pts"
+    "notes": "Live Consensus Value: 2,524 pts"
   },
   "Jadarian Price": {
-    "ktc": 2408,
+    "ktc": 2520,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,408 pts"
+    "notes": "Live Consensus Value: 2,520 pts"
   },
-  "Jameson Williams": {
-    "ktc": 2387,
+  "TreVeyon Henderson": {
+    "ktc": 2513,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,387 pts"
+    "notes": "Live Consensus Value: 2,513 pts"
+  },
+  "George Kittle": {
+    "ktc": 2505,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,505 pts"
+  },
+  "Michael Wilson": {
+    "ktc": 2475,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,475 pts"
+  },
+  "Cam Skattebo": {
+    "ktc": 2434,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,434 pts"
+  },
+  "Jordan Love": {
+    "ktc": 2419,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,419 pts"
   },
   "2027 1st (Late)": {
+    "ktc": 2369,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,369 pts"
+  },
+  "Germie Bernard": {
     "ktc": 2343,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 2,343 pts"
   },
-  "KC Concepcion": {
-    "ktc": 2334,
+  "Jameson Williams": {
+    "ktc": 2338,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,334 pts"
+    "notes": "Live Consensus Value: 2,338 pts"
   },
   "Bryce Young": {
-    "ktc": 2332,
+    "ktc": 2322,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,332 pts"
-  },
-  "Marvin Harrison Jr": {
-    "ktc": 2299,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,299 pts"
-  },
-  "Germie Bernard": {
-    "ktc": 2296,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,296 pts"
-  },
-  "Harold Fannin": {
-    "ktc": 2294,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,294 pts"
+    "notes": "Live Consensus Value: 2,322 pts"
   },
   "C.J. Stroud": {
-    "ktc": 2282,
+    "ktc": 2308,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,282 pts"
-  },
-  "Cam Skattebo": {
-    "ktc": 2207,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,207 pts"
-  },
-  "Kyle Monangai": {
-    "ktc": 2203,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,203 pts"
-  },
-  "Rome Odunze": {
-    "ktc": 2162,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,162 pts"
-  },
-  "Jared Goff": {
-    "ktc": 2147,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,147 pts"
-  },
-  "Travis Etienne": {
-    "ktc": 2131,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,131 pts"
+    "notes": "Live Consensus Value: 2,308 pts"
   },
   "Makai Lemon": {
-    "ktc": 2118,
+    "ktc": 2306,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,118 pts"
+    "notes": "Live Consensus Value: 2,306 pts"
   },
-  "Jaylen Waddle": {
-    "ktc": 2116,
+  "Rome Odunze": {
+    "ktc": 2283,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,116 pts"
+    "notes": "Live Consensus Value: 2,283 pts"
   },
-  "Jaxson Dart": {
-    "ktc": 2086,
+  "KC Concepcion": {
+    "ktc": 2268,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,086 pts"
+    "notes": "Live Consensus Value: 2,268 pts"
   },
-  "Mike Evans": {
-    "ktc": 2085,
+  "Marvin Harrison Jr": {
+    "ktc": 2239,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,085 pts"
+    "notes": "Live Consensus Value: 2,239 pts"
   },
-  "2028 1st": {
-    "ktc": 2066,
+  "Harold Fannin": {
+    "ktc": 2237,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,066 pts"
-  },
-  "Kenyon Sadiq": {
-    "ktc": 2054,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,054 pts"
+    "notes": "Live Consensus Value: 2,237 pts"
   },
   "Omar Cooper": {
-    "ktc": 2041,
+    "ktc": 2195,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,041 pts"
+    "notes": "Live Consensus Value: 2,195 pts"
+  },
+  "Jaylen Waddle": {
+    "ktc": 2173,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,173 pts"
+  },
+  "Kenyon Sadiq": {
+    "ktc": 2127,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,127 pts"
+  },
+  "Jaxson Dart": {
+    "ktc": 2111,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,111 pts"
   },
   "DJ Moore": {
-    "ktc": 2029,
+    "ktc": 2102,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,029 pts"
+    "notes": "Live Consensus Value: 2,102 pts"
   },
-  "Tyler Shough": {
-    "ktc": 2024,
+  "Jared Goff": {
+    "ktc": 2093,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2,024 pts"
+    "notes": "Live Consensus Value: 2,093 pts"
+  },
+  "2028 1st": {
+    "ktc": 2090,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,090 pts"
   },
   "Fernando Mendoza": {
-    "ktc": 1984,
+    "ktc": 2084,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,984 pts"
+    "notes": "Live Consensus Value: 2,084 pts"
   },
-  "Dak Prescott": {
-    "ktc": 1968,
+  "Travis Etienne": {
+    "ktc": 2078,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,968 pts"
+    "notes": "Live Consensus Value: 2,078 pts"
   },
-  "Justin Herbert": {
-    "ktc": 1947,
+  "Kyle Monangai": {
+    "ktc": 2067,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,947 pts"
-  },
-  "Dalton Kincaid": {
-    "ktc": 1928,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,928 pts"
-  },
-  "Zach Charbonnet": {
-    "ktc": 1926,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,926 pts"
+    "notes": "Live Consensus Value: 2,067 pts"
   },
   "Jonah Coleman": {
-    "ktc": 1923,
+    "ktc": 2053,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,923 pts"
+    "notes": "Live Consensus Value: 2,053 pts"
+  },
+  "Tyler Shough": {
+    "ktc": 2039,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,039 pts"
+  },
+  "Justin Herbert": {
+    "ktc": 2031,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,031 pts"
+  },
+  "Mike Evans": {
+    "ktc": 2021,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 2,021 pts"
   },
   "Kyle Pitts": {
-    "ktc": 1917,
+    "ktc": 2020,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,917 pts"
+    "notes": "Live Consensus Value: 2,020 pts"
   },
   "Ollie Gordon": {
-    "ktc": 1908,
+    "ktc": 1986,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,908 pts"
+    "notes": "Live Consensus Value: 1,986 pts"
   },
-  "Blake Corum": {
-    "ktc": 1907,
+  "Zach Charbonnet": {
+    "ktc": 1981,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,907 pts"
+    "notes": "Live Consensus Value: 1,981 pts"
   },
-  "2027 2nd (Early)": {
-    "ktc": 1898,
+  "Dak Prescott": {
+    "ktc": 1978,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,898 pts"
-  },
-  "RJ Harvey": {
-    "ktc": 1898,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,898 pts"
+    "notes": "Live Consensus Value: 1,978 pts"
   },
   "DK Metcalf": {
-    "ktc": 1893,
+    "ktc": 1955,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,893 pts"
+    "notes": "Live Consensus Value: 1,955 pts"
   },
-  "Davante Adams": {
-    "ktc": 1884,
+  "2027 2nd (Early)": {
+    "ktc": 1914,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,884 pts"
+    "notes": "Live Consensus Value: 1,914 pts"
+  },
+  "Dalton Kincaid": {
+    "ktc": 1898,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,898 pts"
+  },
+  "De'Zhaun Stribling": {
+    "ktc": 1886,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,886 pts"
   },
   "Brian Thomas": {
-    "ktc": 1813,
+    "ktc": 1886,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,813 pts"
+    "notes": "Live Consensus Value: 1,886 pts"
+  },
+  "Davante Adams": {
+    "ktc": 1872,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,872 pts"
+  },
+  "Rhamondre Stevenson": {
+    "ktc": 1866,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,866 pts"
+  },
+  "RJ Harvey": {
+    "ktc": 1866,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,866 pts"
+  },
+  "Blake Corum": {
+    "ktc": 1866,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,866 pts"
+  },
+  "Jalen Hurts": {
+    "ktc": 1812,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,812 pts"
   },
   "2029 1st": {
     "ktc": 1806,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,806 pts"
   },
-  "Rhamondre Stevenson": {
-    "ktc": 1803,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,803 pts"
-  },
-  "Jalen Hurts": {
-    "ktc": 1802,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,802 pts"
-  },
-  "De'Zhaun Stribling": {
-    "ktc": 1791,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,791 pts"
-  },
   "Bo Nix": {
-    "ktc": 1759,
+    "ktc": 1737,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,759 pts"
-  },
-  "Antonio Williams": {
-    "ktc": 1738,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,738 pts"
+    "notes": "Live Consensus Value: 1,737 pts"
   },
   "Woody Marks": {
-    "ktc": 1703,
+    "ktc": 1731,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,703 pts"
-  },
-  "Alec Pierce": {
-    "ktc": 1672,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,672 pts"
-  },
-  "Braelon Allen": {
-    "ktc": 1669,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,669 pts"
-  },
-  "Mike Washington": {
-    "ktc": 1667,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,667 pts"
-  },
-  "Brenton Strange": {
-    "ktc": 1656,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,656 pts"
-  },
-  "Travis Hunter": {
-    "ktc": 1620,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,620 pts"
-  },
-  "Jordan Addison": {
-    "ktc": 1618,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,618 pts"
+    "notes": "Live Consensus Value: 1,731 pts"
   },
   "Xavier Worthy": {
-    "ktc": 1617,
+    "ktc": 1729,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,617 pts"
+    "notes": "Live Consensus Value: 1,729 pts"
   },
-  "Jordan Mason": {
-    "ktc": 1609,
+  "Brenton Strange": {
+    "ktc": 1714,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,609 pts"
+    "notes": "Live Consensus Value: 1,714 pts"
   },
-  "Ja'Kobi Lane": {
-    "ktc": 1608,
+  "Alec Pierce": {
+    "ktc": 1714,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,608 pts"
+    "notes": "Live Consensus Value: 1,714 pts"
   },
-  "Aaron Jones": {
-    "ktc": 1599,
+  "Braelon Allen": {
+    "ktc": 1707,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,599 pts"
+    "notes": "Live Consensus Value: 1,707 pts"
+  },
+  "Antonio Williams": {
+    "ktc": 1695,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,695 pts"
+  },
+  "Jordan Addison": {
+    "ktc": 1689,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,689 pts"
+  },
+  "Mike Washington": {
+    "ktc": 1668,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,668 pts"
   },
   "Emmett Johnson": {
-    "ktc": 1592,
+    "ktc": 1613,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,592 pts"
+    "notes": "Live Consensus Value: 1,613 pts"
+  },
+  "Travis Hunter": {
+    "ktc": 1603,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,603 pts"
   },
   "2027 2nd (Mid)": {
-    "ktc": 1589,
+    "ktc": 1598,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,589 pts"
-  },
-  "David Montgomery": {
-    "ktc": 1577,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,577 pts"
-  },
-  "Stefon Diggs": {
-    "ktc": 1558,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,558 pts"
-  },
-  "2027 2nd": {
-    "ktc": 1513,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,513 pts"
+    "notes": "Live Consensus Value: 1,598 pts"
   },
   "Terrance Ferguson": {
-    "ktc": 1505,
+    "ktc": 1576,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,505 pts"
-  },
-  "Josh Downs": {
-    "ktc": 1486,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,486 pts"
+    "notes": "Live Consensus Value: 1,576 pts"
   },
   "Travis Kelce": {
-    "ktc": 1474,
+    "ktc": 1557,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,474 pts"
+    "notes": "Live Consensus Value: 1,557 pts"
   },
-  "Kaelon Black": {
-    "ktc": 1438,
+  "Ja'Kobi Lane": {
+    "ktc": 1538,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,438 pts"
+    "notes": "Live Consensus Value: 1,538 pts"
   },
-  "Keon Coleman": {
-    "ktc": 1437,
+  "Aaron Jones": {
+    "ktc": 1538,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,437 pts"
+    "notes": "Live Consensus Value: 1,538 pts"
   },
-  "Tre Tucker": {
-    "ktc": 1430,
+  "2027 2nd": {
+    "ktc": 1521,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,430 pts"
+    "notes": "Live Consensus Value: 1,521 pts"
   },
-  "Jacory Croskey-Merritt": {
-    "ktc": 1421,
+  "Stefon Diggs": {
+    "ktc": 1516,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,421 pts"
+    "notes": "Live Consensus Value: 1,516 pts"
   },
-  "Sam Darnold": {
-    "ktc": 1411,
+  "Jordan Mason": {
+    "ktc": 1509,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,411 pts"
+    "notes": "Live Consensus Value: 1,509 pts"
+  },
+  "Josh Downs": {
+    "ktc": 1495,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,495 pts"
   },
   "Tony Pollard": {
-    "ktc": 1410,
+    "ktc": 1481,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,410 pts"
+    "notes": "Live Consensus Value: 1,481 pts"
   },
-  "J.K. Dobbins": {
-    "ktc": 1398,
+  "Kaelon Black": {
+    "ktc": 1477,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,398 pts"
+    "notes": "Live Consensus Value: 1,477 pts"
   },
-  "Kyler Murray": {
-    "ktc": 1394,
+  "David Montgomery": {
+    "ktc": 1476,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,394 pts"
-  },
-  "Chris Bell": {
-    "ktc": 1385,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,385 pts"
+    "notes": "Live Consensus Value: 1,476 pts"
   },
   "Jayden Higgins": {
-    "ktc": 1376,
+    "ktc": 1433,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,376 pts"
-  },
-  "Dallas Goedert": {
-    "ktc": 1375,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,375 pts"
-  },
-  "Wan'Dale Robinson": {
-    "ktc": 1370,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,370 pts"
-  },
-  "Jonathon Brooks": {
-    "ktc": 1362,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,362 pts"
-  },
-  "2027 2nd (Late)": {
-    "ktc": 1358,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,358 pts"
-  },
-  "Baker Mayfield": {
-    "ktc": 1354,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,354 pts"
+    "notes": "Live Consensus Value: 1,433 pts"
   },
   "Matthew Stafford": {
+    "ktc": 1422,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,422 pts"
+  },
+  "Keon Coleman": {
+    "ktc": 1407,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,407 pts"
+  },
+  "J.K. Dobbins": {
+    "ktc": 1402,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,402 pts"
+  },
+  "Jacory Croskey-Merritt": {
+    "ktc": 1401,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,401 pts"
+  },
+  "Sam Darnold": {
+    "ktc": 1384,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,384 pts"
+  },
+  "Chris Bell": {
+    "ktc": 1383,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,383 pts"
+  },
+  "2027 2nd (Late)": {
+    "ktc": 1377,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,377 pts"
+  },
+  "Eli Raridon": {
+    "ktc": 1371,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,371 pts"
+  },
+  "Jonathon Brooks": {
+    "ktc": 1369,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,369 pts"
+  },
+  "Wan'Dale Robinson": {
+    "ktc": 1369,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,369 pts"
+  },
+  "Dallas Goedert": {
+    "ktc": 1364,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,364 pts"
+  },
+  "Kyler Murray": {
+    "ktc": 1361,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,361 pts"
+  },
+  "Tre Tucker": {
+    "ktc": 1357,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,357 pts"
+  },
+  "Eli Stowers": {
     "ktc": 1346,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,346 pts"
   },
-  "Romeo Doubs": {
-    "ktc": 1339,
+  "Baker Mayfield": {
+    "ktc": 1344,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,339 pts"
-  },
-  "Juwan Johnson": {
-    "ktc": 1331,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,331 pts"
+    "notes": "Live Consensus Value: 1,344 pts"
   },
   "Jakobi Meyers": {
+    "ktc": 1323,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,323 pts"
+  },
+  "Rachaad White": {
     "ktc": 1319,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,319 pts"
   },
-  "Chig Okonkwo": {
-    "ktc": 1302,
+  "Juwan Johnson": {
+    "ktc": 1314,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,302 pts"
-  },
-  "Malik Washington": {
-    "ktc": 1300,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,300 pts"
-  },
-  "Rico Dowdle": {
-    "ktc": 1292,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,292 pts"
-  },
-  "Rachaad White": {
-    "ktc": 1290,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,290 pts"
-  },
-  "Tyler Allgeier": {
-    "ktc": 1280,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,280 pts"
-  },
-  "Brian Robinson": {
-    "ktc": 1279,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,279 pts"
-  },
-  "Khalil Shakir": {
-    "ktc": 1272,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,272 pts"
-  },
-  "Ricky Pearsall": {
-    "ktc": 1271,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,271 pts"
-  },
-  "Jayden Reed": {
-    "ktc": 1271,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,271 pts"
-  },
-  "Eli Raridon": {
-    "ktc": 1263,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,263 pts"
-  },
-  "2028 2nd": {
-    "ktc": 1260,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,260 pts"
-  },
-  "T.J. Hockenson": {
-    "ktc": 1257,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,257 pts"
-  },
-  "Eli Stowers": {
-    "ktc": 1255,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,255 pts"
-  },
-  "Michael Mayer": {
-    "ktc": 1251,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,251 pts"
-  },
-  "Malachi Fields": {
-    "ktc": 1249,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,249 pts"
+    "notes": "Live Consensus Value: 1,314 pts"
   },
   "Deebo Samuel": {
-    "ktc": 1246,
+    "ktc": 1306,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,246 pts"
+    "notes": "Live Consensus Value: 1,306 pts"
   },
-  "Terry McLaurin": {
-    "ktc": 1245,
+  "Chig Okonkwo": {
+    "ktc": 1287,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,245 pts"
+    "notes": "Live Consensus Value: 1,287 pts"
   },
-  "Michael Penix": {
-    "ktc": 1243,
+  "Ricky Pearsall": {
+    "ktc": 1282,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,243 pts"
+    "notes": "Live Consensus Value: 1,282 pts"
   },
-  "Adonai Mitchell": {
+  "Jayden Reed": {
+    "ktc": 1281,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,281 pts"
+  },
+  "2028 2nd": {
+    "ktc": 1277,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,277 pts"
+  },
+  "Malik Washington": {
+    "ktc": 1276,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,276 pts"
+  },
+  "Romeo Doubs": {
+    "ktc": 1267,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,267 pts"
+  },
+  "Michael Mayer": {
+    "ktc": 1266,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,266 pts"
+  },
+  "Tyler Allgeier": {
+    "ktc": 1262,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,262 pts"
+  },
+  "T.J. Hockenson": {
+    "ktc": 1258,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,258 pts"
+  },
+  "Rico Dowdle": {
+    "ktc": 1247,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,247 pts"
+  },
+  "Pat Bryant": {
+    "ktc": 1242,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,242 pts"
+  },
+  "Malachi Fields": {
+    "ktc": 1236,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,236 pts"
+  },
+  "Jaylin Noel": {
     "ktc": 1231,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,231 pts"
   },
-  "Tank Dell": {
-    "ktc": 1220,
+  "Khalil Shakir": {
+    "ktc": 1229,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,220 pts"
+    "notes": "Live Consensus Value: 1,229 pts"
   },
-  "Jaylin Noel": {
-    "ktc": 1216,
+  "Seth McGowan": {
+    "ktc": 1221,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,216 pts"
-  },
-  "Ted Hurst": {
-    "ktc": 1211,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,211 pts"
-  },
-  "Caleb Douglas": {
-    "ktc": 1206,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,206 pts"
-  },
-  "Pat Freiermuth": {
-    "ktc": 1203,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,203 pts"
+    "notes": "Live Consensus Value: 1,221 pts"
   },
   "2027 3rd (Early)": {
-    "ktc": 1183,
+    "ktc": 1209,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,183 pts"
+    "notes": "Live Consensus Value: 1,209 pts"
   },
-  "Pat Bryant": {
+  "Caleb Douglas": {
+    "ktc": 1208,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,208 pts"
+  },
+  "Terry McLaurin": {
+    "ktc": 1202,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,202 pts"
+  },
+  "Michael Penix": {
+    "ktc": 1201,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,201 pts"
+  },
+  "Chris Godwin": {
+    "ktc": 1200,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,200 pts"
+  },
+  "Tank Dell": {
+    "ktc": 1195,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,195 pts"
+  },
+  "Jake Ferguson": {
+    "ktc": 1195,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,195 pts"
+  },
+  "Dylan Sampson": {
+    "ktc": 1184,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,184 pts"
+  },
+  "Quentin Johnston": {
+    "ktc": 1180,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,180 pts"
+  },
+  "Ted Hurst": {
     "ktc": 1179,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,179 pts"
   },
-  "Seth McGowan": {
-    "ktc": 1177,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,177 pts"
-  },
-  "Jake Ferguson": {
-    "ktc": 1168,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,168 pts"
-  },
   "2029 2nd": {
-    "ktc": 1162,
+    "ktc": 1176,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,162 pts"
+    "notes": "Live Consensus Value: 1,176 pts"
   },
   "Cam Ward": {
-    "ktc": 1158,
+    "ktc": 1176,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,158 pts"
+    "notes": "Live Consensus Value: 1,176 pts"
+  },
+  "Adonai Mitchell": {
+    "ktc": 1176,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,176 pts"
   },
   "Emanuel Wilson": {
-    "ktc": 1149,
+    "ktc": 1170,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,149 pts"
-  },
-  "Quentin Johnston": {
-    "ktc": 1149,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,149 pts"
+    "notes": "Live Consensus Value: 1,170 pts"
   },
   "Alvin Kamara": {
-    "ktc": 1138,
+    "ktc": 1167,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,138 pts"
+    "notes": "Live Consensus Value: 1,167 pts"
   },
-  "Devaughn Vele": {
-    "ktc": 1137,
+  "Brian Robinson": {
+    "ktc": 1164,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,137 pts"
-  },
-  "Dylan Sampson": {
-    "ktc": 1135,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,135 pts"
+    "notes": "Live Consensus Value: 1,164 pts"
   },
   "Courtland Sutton": {
-    "ktc": 1134,
+    "ktc": 1155,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,134 pts"
+    "notes": "Live Consensus Value: 1,155 pts"
   },
-  "Chris Godwin": {
+  "Pat Freiermuth": {
+    "ktc": 1153,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,153 pts"
+  },
+  "Devaughn Vele": {
+    "ktc": 1131,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,131 pts"
+  },
+  "Hunter Henry": {
+    "ktc": 1121,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,121 pts"
+  },
+  "AJ Barner": {
+    "ktc": 1109,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,109 pts"
+  },
+  "Ty Simpson": {
     "ktc": 1100,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,100 pts"
   },
-  "Hunter Henry": {
-    "ktc": 1098,
+  "Tyjae Spears": {
+    "ktc": 1099,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,098 pts"
+    "notes": "Live Consensus Value: 1,099 pts"
   },
-  "Tyrone Tracy": {
-    "ktc": 1095,
+  "Nicholas Singleton": {
+    "ktc": 1094,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,095 pts"
+    "notes": "Live Consensus Value: 1,094 pts"
   },
   "Cyrus Allen": {
-    "ktc": 1091,
+    "ktc": 1086,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,091 pts"
+    "notes": "Live Consensus Value: 1,086 pts"
   },
-  "Oronde Gadsden": {
+  "Mark Andrews": {
     "ktc": 1085,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,085 pts"
   },
-  "Ty Simpson": {
-    "ktc": 1071,
+  "Oronde Gadsden": {
+    "ktc": 1080,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,071 pts"
-  },
-  "Tyjae Spears": {
-    "ktc": 1064,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,064 pts"
-  },
-  "Keenan Allen": {
-    "ktc": 1056,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,056 pts"
-  },
-  "Mark Andrews": {
-    "ktc": 1056,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,056 pts"
+    "notes": "Live Consensus Value: 1,080 pts"
   },
   "2027 3rd (Mid)": {
-    "ktc": 1046,
+    "ktc": 1076,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,046 pts"
+    "notes": "Live Consensus Value: 1,076 pts"
   },
-  "Rashid Shaheed": {
-    "ktc": 1038,
+  "Keenan Allen": {
+    "ktc": 1073,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,038 pts"
+    "notes": "Live Consensus Value: 1,073 pts"
   },
   "2027 3rd": {
+    "ktc": 1053,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,053 pts"
+  },
+  "Kenny Gainwell": {
+    "ktc": 1042,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,042 pts"
+  },
+  "Tyrone Tracy": {
+    "ktc": 1039,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,039 pts"
+  },
+  "Dontayvion Wicks": {
+    "ktc": 1028,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 1,028 pts"
+  },
+  "Tre' Harris": {
     "ktc": 1022,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 1,022 pts"
   },
-  "MarShawn Lloyd": {
-    "ktc": 1012,
+  "Rashid Shaheed": {
+    "ktc": 1018,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 1,012 pts"
-  },
-  "Tre' Harris": {
-    "ktc": 999,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 999 pts"
-  },
-  "Kendre Miller": {
-    "ktc": 989,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 989 pts"
-  },
-  "DeMario Douglas": {
-    "ktc": 987,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 987 pts"
-  },
-  "Dontayvion Wicks": {
-    "ktc": 985,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 985 pts"
-  },
-  "AJ Barner": {
-    "ktc": 980,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 980 pts"
-  },
-  "Malik Willis": {
-    "ktc": 978,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 978 pts"
+    "notes": "Live Consensus Value: 1,018 pts"
   },
   "J.J. McCarthy": {
-    "ktc": 975,
+    "ktc": 1006,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 975 pts"
+    "notes": "Live Consensus Value: 1,006 pts"
   },
-  "Kenny Gainwell": {
-    "ktc": 964,
+  "Kendre Miller": {
+    "ktc": 973,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 964 pts"
+    "notes": "Live Consensus Value: 973 pts"
   },
   "2027 3rd (Late)": {
-    "ktc": 947,
+    "ktc": 969,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 947 pts"
+    "notes": "Live Consensus Value: 969 pts"
   },
-  "Nicholas Singleton": {
-    "ktc": 946,
+  "Malik Willis": {
+    "ktc": 966,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 946 pts"
+    "notes": "Live Consensus Value: 966 pts"
   },
   "Tyler Higbee": {
-    "ktc": 941,
+    "ktc": 962,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 941 pts"
+    "notes": "Live Consensus Value: 962 pts"
   },
-  "Kendrick Bourne": {
-    "ktc": 927,
+  "Keaton Mitchell": {
+    "ktc": 962,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 927 pts"
+    "notes": "Live Consensus Value: 962 pts"
+  },
+  "Ryan Flournoy": {
+    "ktc": 959,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 959 pts"
+  },
+  "Chris Rodriguez": {
+    "ktc": 954,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 954 pts"
   },
   "2028 3rd": {
+    "ktc": 936,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 936 pts"
+  },
+  "Deshaun Watson": {
+    "ktc": 936,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 936 pts"
+  },
+  "Daniel Jones": {
+    "ktc": 925,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 925 pts"
+  },
+  "Kendrick Bourne": {
     "ktc": 922,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 922 pts"
   },
-  "Deshaun Watson": {
+  "Roman Wilson": {
     "ktc": 913,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 913 pts"
   },
-  "Dalton Schultz": {
-    "ktc": 907,
+  "Jerry Jeudy": {
+    "ktc": 896,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 907 pts"
+    "notes": "Live Consensus Value: 896 pts"
   },
-  "Daniel Jones": {
-    "ktc": 905,
+  "Konata Mumpfield": {
+    "ktc": 893,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 905 pts"
+    "notes": "Live Consensus Value: 893 pts"
   },
-  "Keaton Mitchell": {
-    "ktc": 903,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 903 pts"
-  },
-  "Roman Wilson": {
+  "2029 3rd": {
     "ktc": 883,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 883 pts"
   },
-  "Michael Pittman": {
-    "ktc": 882,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 882 pts"
-  },
-  "2029 3rd": {
-    "ktc": 877,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 877 pts"
-  },
-  "Kimani Vidal": {
-    "ktc": 871,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 871 pts"
-  },
   "2027 4th (Early)": {
-    "ktc": 865,
+    "ktc": 880,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 865 pts"
-  },
-  "Chris Rodriguez": {
-    "ktc": 864,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 864 pts"
-  },
-  "Roschon Johnson": {
-    "ktc": 842,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 842 pts"
-  },
-  "Ryan Flournoy": {
-    "ktc": 842,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 842 pts"
-  },
-  "Kirk Cousins": {
-    "ktc": 839,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 839 pts"
-  },
-  "Aaron Rodgers": {
-    "ktc": 818,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 818 pts"
-  },
-  "Geno Smith": {
-    "ktc": 817,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 817 pts"
+    "notes": "Live Consensus Value: 880 pts"
   },
   "Dameon Pierce": {
-    "ktc": 807,
+    "ktc": 880,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 807 pts"
+    "notes": "Live Consensus Value: 880 pts"
   },
-  "Isaac TeSlaa": {
+  "Aaron Rodgers": {
+    "ktc": 873,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 873 pts"
+  },
+  "MarShawn Lloyd": {
+    "ktc": 863,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 863 pts"
+  },
+  "Kirk Cousins": {
+    "ktc": 855,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 855 pts"
+  },
+  "Mike Gesicki": {
+    "ktc": 849,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 849 pts"
+  },
+  "Christian Kirk": {
+    "ktc": 832,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 832 pts"
+  },
+  "Zachariah Branch": {
+    "ktc": 830,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 830 pts"
+  },
+  "Kimani Vidal": {
+    "ktc": 810,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 810 pts"
+  },
+  "2027 4th (Mid)": {
     "ktc": 806,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 806 pts"
   },
-  "2027 4th (Mid)": {
+  "DeMario Douglas": {
+    "ktc": 805,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 805 pts"
+  },
+  "Geno Smith": {
+    "ktc": 804,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 804 pts"
+  },
+  "Jacoby Brissett": {
     "ktc": 798,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 798 pts"
   },
-  "Konata Mumpfield": {
-    "ktc": 792,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 792 pts"
-  },
   "2027 4th": {
-    "ktc": 788,
+    "ktc": 796,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 788 pts"
+    "notes": "Live Consensus Value: 796 pts"
+  },
+  "Isaac TeSlaa": {
+    "ktc": 786,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 786 pts"
   },
   "2028 4th": {
-    "ktc": 764,
+    "ktc": 762,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 764 pts"
+    "notes": "Live Consensus Value: 762 pts"
   },
-  "Mike Gesicki": {
-    "ktc": 756,
+  "Michael Pittman": {
+    "ktc": 749,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 756 pts"
-  },
-  "Jacoby Brissett": {
-    "ktc": 744,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 744 pts"
+    "notes": "Live Consensus Value: 749 pts"
   },
   "2027 4th (Late)": {
+    "ktc": 746,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 746 pts"
+  },
+  "Dalton Schultz": {
+    "ktc": 745,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 745 pts"
+  },
+  "2029 4th": {
+    "ktc": 739,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 739 pts"
+  },
+  "Josh Cameron": {
     "ktc": 738,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 738 pts"
   },
-  "2029 4th": {
-    "ktc": 735,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 735 pts"
-  },
   "Carson Beck": {
-    "ktc": 730,
+    "ktc": 734,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 730 pts"
-  },
-  "Christian Kirk": {
-    "ktc": 730,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 730 pts"
-  },
-  "Tyreek Hill": {
-    "ktc": 730,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 730 pts"
-  },
-  "Zachariah Branch": {
-    "ktc": 705,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 705 pts"
-  },
-  "Jerry Jeudy": {
-    "ktc": 697,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 697 pts"
-  },
-  "Josh Cameron": {
-    "ktc": 694,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 694 pts"
-  },
-  "Chris Brazzell": {
-    "ktc": 660,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 660 pts"
-  },
-  "Tanner McKee": {
-    "ktc": 658,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 658 pts"
-  },
-  "Tank Bigsby": {
-    "ktc": 652,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 652 pts"
-  },
-  "Jalen McMillan": {
-    "ktc": 642,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 642 pts"
-  },
-  "Cade Otton": {
-    "ktc": 621,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 621 pts"
-  },
-  "Jalon Daniels": {
-    "ktc": 620,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 620 pts"
+    "notes": "Live Consensus Value: 734 pts"
   },
   "Darius Cooper": {
-    "ktc": 617,
+    "ktc": 725,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 617 pts"
+    "notes": "Live Consensus Value: 725 pts"
   },
-  "Samaje Perine": {
-    "ktc": 568,
+  "Cade Otton": {
+    "ktc": 716,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 568 pts"
+    "notes": "Live Consensus Value: 716 pts"
   },
-  "Mason Taylor": {
-    "ktc": 564,
+  "Tank Bigsby": {
+    "ktc": 695,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 564 pts"
+    "notes": "Live Consensus Value: 695 pts"
   },
-  "Tyler Huntley": {
-    "ktc": 505,
+  "Tyreek Hill": {
+    "ktc": 668,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 505 pts"
+    "notes": "Live Consensus Value: 668 pts"
   },
-  "Jaylen Wright": {
-    "ktc": 505,
+  "Jalen McMillan": {
+    "ktc": 630,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 505 pts"
-  },
-  "Kaleb Johnson": {
-    "ktc": 504,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 504 pts"
+    "notes": "Live Consensus Value: 630 pts"
   },
   "Darren Waller": {
+    "ktc": 619,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 619 pts"
+  },
+  "Roschon Johnson": {
+    "ktc": 618,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 618 pts"
+  },
+  "Tanner McKee": {
+    "ktc": 618,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 618 pts"
+  },
+  "Chris Brazzell": {
+    "ktc": 615,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 615 pts"
+  },
+  "Jalon Daniels": {
+    "ktc": 606,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 606 pts"
+  },
+  "Samaje Perine": {
+    "ktc": 595,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 595 pts"
+  },
+  "Tyler Huntley": {
+    "ktc": 539,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 539 pts"
+  },
+  "Cooper Kupp": {
+    "ktc": 533,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 533 pts"
+  },
+  "Jaylen Wright": {
+    "ktc": 525,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 525 pts"
+  },
+  "Darnell Washington": {
+    "ktc": 522,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 522 pts"
+  },
+  "Rashod Bateman": {
     "ktc": 500,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 500 pts"
   },
-  "Kyle Williams": {
-    "ktc": 499,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 499 pts"
-  },
   "Skyler Bell": {
-    "ktc": 496,
+    "ktc": 497,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 496 pts"
-  },
-  "Cooper Kupp": {
-    "ktc": 463,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 463 pts"
-  },
-  "Kayshon Boutte": {
-    "ktc": 463,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 463 pts"
-  },
-  "Jauan Jennings": {
-    "ktc": 459,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 459 pts"
-  },
-  "Demond Claiborne": {
-    "ktc": 456,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 456 pts"
-  },
-  "Darnell Washington": {
-    "ktc": 456,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 456 pts"
-  },
-  "Anthony Richardson": {
-    "ktc": 452,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 452 pts"
-  },
-  "Rashod Bateman": {
-    "ktc": 439,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 439 pts"
-  },
-  "Troy Franklin": {
-    "ktc": 439,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 439 pts"
-  },
-  "Jahan Dotson": {
-    "ktc": 432,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 432 pts"
-  },
-  "Efton Chism": {
-    "ktc": 417,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 417 pts"
-  },
-  "Isiah Pacheco": {
-    "ktc": 413,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 413 pts"
-  },
-  "Shedeur Sanders": {
-    "ktc": 410,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 410 pts"
+    "notes": "Live Consensus Value: 497 pts"
   },
   "Drew Allar": {
-    "ktc": 406,
+    "ktc": 495,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 406 pts"
+    "notes": "Live Consensus Value: 495 pts"
   },
-  "Dohnte Meyers": {
-    "ktc": 402,
+  "Adam Randall": {
+    "ktc": 482,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 402 pts"
+    "notes": "Live Consensus Value: 482 pts"
   },
-  "Greg Dulcich": {
-    "ktc": 401,
+  "Jahan Dotson": {
+    "ktc": 480,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 401 pts"
+    "notes": "Live Consensus Value: 480 pts"
+  },
+  "Efton Chism": {
+    "ktc": 480,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 480 pts"
   },
   "Gunnar Helm": {
-    "ktc": 401,
+    "ktc": 477,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 401 pts"
-  },
-  "Jack Bech": {
-    "ktc": 401,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 401 pts"
-  },
-  "Tory Horton": {
-    "ktc": 392,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 392 pts"
-  },
-  "Elic Ayomanor": {
-    "ktc": 386,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 386 pts"
-  },
-  "Elijah Sarratt": {
-    "ktc": 380,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 380 pts"
+    "notes": "Live Consensus Value: 477 pts"
   },
   "Mac Jones": {
+    "ktc": 467,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 467 pts"
+  },
+  "Elijah Sarratt": {
+    "ktc": 461,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 461 pts"
+  },
+  "Demond Claiborne": {
+    "ktc": 460,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 460 pts"
+  },
+  "Kayshon Boutte": {
+    "ktc": 451,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 451 pts"
+  },
+  "Jauan Jennings": {
+    "ktc": 440,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 440 pts"
+  },
+  "Kaleb Johnson": {
+    "ktc": 429,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 429 pts"
+  },
+  "Shedeur Sanders": {
+    "ktc": 426,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 426 pts"
+  },
+  "Tory Horton": {
+    "ktc": 418,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 418 pts"
+  },
+  "Anthony Richardson": {
+    "ktc": 416,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 416 pts"
+  },
+  "Kyle Williams": {
+    "ktc": 400,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 400 pts"
+  },
+  "Dohnte Meyers": {
     "ktc": 377,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 377 pts"
   },
-  "Max Klare": {
-    "ktc": 374,
+  "Mason Taylor": {
+    "ktc": 376,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 374 pts"
-  },
-  "Adam Randall": {
-    "ktc": 373,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 373 pts"
-  },
-  "Treylon Burks": {
-    "ktc": 365,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 365 pts"
-  },
-  "Kaytron Allen": {
-    "ktc": 364,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 364 pts"
-  },
-  "Jameis Winston": {
-    "ktc": 354,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 354 pts"
-  },
-  "Joe Milton": {
-    "ktc": 343,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 343 pts"
+    "notes": "Live Consensus Value: 376 pts"
   },
   "George Holani": {
-    "ktc": 332,
+    "ktc": 372,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 332 pts"
+    "notes": "Live Consensus Value: 372 pts"
   },
-  "Colby Parkinson": {
-    "ktc": 329,
+  "Jack Bech": {
+    "ktc": 370,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 329 pts"
-  },
-  "Zavion Thomas": {
-    "ktc": 327,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 327 pts"
+    "notes": "Live Consensus Value: 370 pts"
   },
   "Bryce Lance": {
+    "ktc": 367,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 367 pts"
+  },
+  "Greg Dulcich": {
+    "ktc": 367,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 367 pts"
+  },
+  "Troy Franklin": {
+    "ktc": 355,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 355 pts"
+  },
+  "Zonovan Knight": {
+    "ktc": 350,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 350 pts"
+  },
+  "Elic Ayomanor": {
+    "ktc": 346,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 346 pts"
+  },
+  "Max Klare": {
+    "ktc": 341,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 341 pts"
+  },
+  "Treylon Burks": {
+    "ktc": 339,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 339 pts"
+  },
+  "Jalen Royals": {
+    "ktc": 337,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 337 pts"
+  },
+  "Oscar Delp": {
+    "ktc": 335,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 335 pts"
+  },
+  "Kaytron Allen": {
     "ktc": 326,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 326 pts"
   },
-  "Kalif Raymond": {
-    "ktc": 325,
+  "Jameis Winston": {
+    "ktc": 319,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 325 pts"
+    "notes": "Live Consensus Value: 319 pts"
   },
-  "Corey Kiner": {
-    "ktc": 316,
+  "Colby Parkinson": {
+    "ktc": 314,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 316 pts"
+    "notes": "Live Consensus Value: 314 pts"
+  },
+  "Isiah Pacheco": {
+    "ktc": 314,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 314 pts"
   },
   "Matt Hibner": {
-    "ktc": 312,
+    "ktc": 313,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 312 pts"
+    "notes": "Live Consensus Value: 313 pts"
   },
   "Justice Hill": {
-    "ktc": 309,
+    "ktc": 310,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 309 pts"
-  },
-  "Oscar Delp": {
-    "ktc": 304,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 304 pts"
-  },
-  "Zonovan Knight": {
-    "ktc": 302,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 302 pts"
-  },
-  "Evan Engram": {
-    "ktc": 296,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 296 pts"
+    "notes": "Live Consensus Value: 310 pts"
   },
   "Brandin Cooks": {
-    "ktc": 283,
+    "ktc": 303,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 283 pts"
-  },
-  "Jalen Royals": {
-    "ktc": 280,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 280 pts"
-  },
-  "Ray Davis": {
-    "ktc": 276,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 276 pts"
+    "notes": "Live Consensus Value: 303 pts"
   },
   "James Conner": {
-    "ktc": 269,
+    "ktc": 298,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 269 pts"
+    "notes": "Live Consensus Value: 298 pts"
   },
-  "Tyquan Thornton": {
-    "ktc": 267,
+  "Tez Johnson": {
+    "ktc": 297,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 267 pts"
+    "notes": "Live Consensus Value: 297 pts"
   },
-  "Najee Harris": {
+  "Joe Milton": {
+    "ktc": 290,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 290 pts"
+  },
+  "Zavion Thomas": {
+    "ktc": 288,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 288 pts"
+  },
+  "Sean Tucker": {
+    "ktc": 287,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 287 pts"
+  },
+  "Jalen Nailor": {
+    "ktc": 281,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 281 pts"
+  },
+  "Corey Kiner": {
+    "ktc": 278,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 278 pts"
+  },
+  "Kevin Coleman": {
+    "ktc": 278,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 278 pts"
+  },
+  "Savion Williams": {
+    "ktc": 274,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 274 pts"
+  },
+  "Kalif Raymond": {
+    "ktc": 271,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 271 pts"
+  },
+  "Raheim Sanders": {
     "ktc": 266,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 266 pts"
   },
   "Jaleel McLaughlin": {
-    "ktc": 264,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 264 pts"
-  },
-  "Jalen Nailor": {
-    "ktc": 260,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 260 pts"
-  },
-  "Will Shipley": {
-    "ktc": 257,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 257 pts"
-  },
-  "Tez Johnson": {
     "ktc": 255,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 255 pts"
   },
-  "Savion Williams": {
-    "ktc": 230,
+  "Brandon Aiyuk": {
+    "ktc": 255,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 230 pts"
+    "notes": "Live Consensus Value: 255 pts"
+  },
+  "Josh Cuevas": {
+    "ktc": 245,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 245 pts"
   },
   "CJ Donaldson": {
-    "ktc": 229,
+    "ktc": 242,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 229 pts"
+    "notes": "Live Consensus Value: 242 pts"
   },
-  "Brandon Aiyuk": {
-    "ktc": 229,
+  "Trey Benson": {
+    "ktc": 235,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 229 pts"
+    "notes": "Live Consensus Value: 235 pts"
   },
   "Cade Klubnik": {
+    "ktc": 234,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 234 pts"
+  },
+  "Ray Davis": {
+    "ktc": 234,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 234 pts"
+  },
+  "Austin Ekeler": {
+    "ktc": 229,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 229 pts"
+  },
+  "Najee Harris": {
+    "ktc": 225,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 225 pts"
+  },
+  "Tua Tagovailoa": {
+    "ktc": 220,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 220 pts"
+  },
+  "Trevor Etienne": {
     "ktc": 219,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 219 pts"
   },
-  "Cole Kmet": {
-    "ktc": 218,
+  "Will Shipley": {
+    "ktc": 217,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 218 pts"
+    "notes": "Live Consensus Value: 217 pts"
+  },
+  "Evan Engram": {
+    "ktc": 217,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 217 pts"
+  },
+  "Tyquan Thornton": {
+    "ktc": 214,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 214 pts"
+  },
+  "Devin Singletary": {
+    "ktc": 209,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 209 pts"
   },
   "Elijah Arroyo": {
-    "ktc": 218,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 218 pts"
-  },
-  "Tua Tagovailoa": {
     "ktc": 208,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 208 pts"
   },
-  "Sean Tucker": {
-    "ktc": 205,
+  "Cole Kmet": {
+    "ktc": 201,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 205 pts"
+    "notes": "Live Consensus Value: 201 pts"
   },
-  "Joe Mixon": {
-    "ktc": 203,
+  "Drew Lock": {
+    "ktc": 197,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 203 pts"
+    "notes": "Live Consensus Value: 197 pts"
   },
-  "Xavier Legette": {
-    "ktc": 202,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 202 pts"
-  },
-  "Sione Vaki": {
-    "ktc": 189,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 189 pts"
-  },
-  "Kevin Coleman": {
+  "Xavier Hutchinson": {
     "ktc": 188,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 188 pts"
   },
-  "Josh Cuevas": {
-    "ktc": 184,
+  "Xavier Legette": {
+    "ktc": 186,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 184 pts"
+    "notes": "Live Consensus Value: 186 pts"
   },
-  "Drew Lock": {
-    "ktc": 180,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 180 pts"
-  },
-  "Isaiah Bond": {
-    "ktc": 180,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 180 pts"
-  },
-  "Marcus Mariota": {
+  "Joe Mixon": {
     "ktc": 176,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 176 pts"
   },
-  "Marvin Mims": {
-    "ktc": 173,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 173 pts"
-  },
-  "Austin Ekeler": {
+  "Sam Roush": {
     "ktc": 172,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 172 pts"
   },
-  "DJ Giddens": {
-    "ktc": 168,
+  "LeQuint Allen": {
+    "ktc": 170,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 168 pts"
+    "notes": "Live Consensus Value: 170 pts"
   },
-  "Mack Hollins": {
-    "ktc": 166,
+  "Justin Fields": {
+    "ktc": 157,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 166 pts"
+    "notes": "Live Consensus Value: 157 pts"
   },
-  "Raheim Sanders": {
-    "ktc": 166,
+  "Isaiah Bond": {
+    "ktc": 157,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 166 pts"
+    "notes": "Live Consensus Value: 157 pts"
   },
-  "Jalen Milroe": {
-    "ktc": 161,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 161 pts"
-  },
-  "David Njoku": {
+  "Sione Vaki": {
     "ktc": 156,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 156 pts"
   },
-  "Trevor Etienne": {
+  "Barion Brown": {
     "ktc": 154,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 154 pts"
   },
-  "LeQuint Allen": {
-    "ktc": 153,
+  "Calvin Ridley": {
+    "ktc": 150,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 153 pts"
+    "notes": "Live Consensus Value: 150 pts"
   },
-  "Noah Fant": {
-    "ktc": 152,
+  "Marlin Klein": {
+    "ktc": 138,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 152 pts"
+    "notes": "Live Consensus Value: 138 pts"
   },
-  "Isaiah Davis": {
-    "ktc": 152,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 152 pts"
-  },
-  "Isaiah Williams": {
-    "ktc": 148,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 148 pts"
-  },
-  "Pierre Strong": {
-    "ktc": 147,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 147 pts"
-  },
-  "Trey Benson": {
-    "ktc": 147,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 147 pts"
-  },
-  "Justin Fields": {
-    "ktc": 145,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 145 pts"
-  },
-  "Devin Singletary": {
-    "ktc": 141,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 141 pts"
-  },
-  "Kaden Wetjen": {
+  "Carson Wentz": {
     "ktc": 136,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 136 pts"
   },
-  "Brenen Thompson": {
-    "ktc": 133,
+  "Tommy Tremble": {
+    "ktc": 135,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 133 pts"
+    "notes": "Live Consensus Value: 135 pts"
   },
-  "Reggie Virgil": {
-    "ktc": 130,
+  "Jordan Watkins": {
+    "ktc": 135,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 130 pts"
+    "notes": "Live Consensus Value: 135 pts"
   },
-  "Chimere Dike": {
-    "ktc": 129,
+  "Isaiah Davis": {
+    "ktc": 134,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 129 pts"
+    "notes": "Live Consensus Value: 134 pts"
   },
-  "Barion Brown": {
-    "ktc": 128,
+  "Eli Heidenreich": {
+    "ktc": 132,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 128 pts"
+    "notes": "Live Consensus Value: 132 pts"
   },
-  "Xavier Hutchinson": {
-    "ktc": 127,
+  "Isaiah Williams": {
+    "ktc": 131,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 127 pts"
+    "notes": "Live Consensus Value: 131 pts"
   },
-  "Cole Payton": {
-    "ktc": 124,
+  "Tyler Goodson": {
+    "ktc": 123,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 124 pts"
+    "notes": "Live Consensus Value: 123 pts"
   },
-  "Theo Johnson": {
+  "Marcus Mariota": {
     "ktc": 122,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 122 pts"
-  },
-  "Colbie Young": {
-    "ktc": 120,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 120 pts"
-  },
-  "Tommy Tremble": {
-    "ktc": 119,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 119 pts"
   },
   "Tyson Bagent": {
     "ktc": 119,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 119 pts"
   },
-  "Darnell Mooney": {
-    "ktc": 118,
+  "Marvin Mims": {
+    "ktc": 116,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 118 pts"
+    "notes": "Live Consensus Value: 116 pts"
   },
-  "Malik Davis": {
-    "ktc": 117,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 117 pts"
-  },
-  "Sam Roush": {
+  "Joe Flacco": {
     "ktc": 115,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 115 pts"
   },
-  "Dont'e Thornton": {
-    "ktc": 115,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 115 pts"
-  },
-  "Calvin Ridley": {
-    "ktc": 115,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 115 pts"
-  },
-  "Charlie Kolar": {
+  "Cole Payton": {
     "ktc": 114,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 114 pts"
   },
-  "Marlin Klein": {
-    "ktc": 104,
+  "Noah Gray": {
+    "ktc": 113,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 104 pts"
+    "notes": "Live Consensus Value: 113 pts"
   },
-  "Nate Boerkircher": {
-    "ktc": 103,
+  "Pierre Strong": {
+    "ktc": 112,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 103 pts"
+    "notes": "Live Consensus Value: 112 pts"
   },
-  "Jordan Watkins": {
-    "ktc": 103,
+  "Jalen Milroe": {
+    "ktc": 111,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 103 pts"
-  },
-  "Carson Wentz": {
-    "ktc": 98,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 98 pts"
-  },
-  "Jordan James": {
-    "ktc": 98,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 98 pts"
-  },
-  "Justin Joly": {
-    "ktc": 91,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 91 pts"
-  },
-  "Deion Burks": {
-    "ktc": 90,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 90 pts"
-  },
-  "Ty Johnson": {
-    "ktc": 86,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 86 pts"
-  },
-  "Devin Neal": {
-    "ktc": 86,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 86 pts"
-  },
-  "Tyler Goodson": {
-    "ktc": 84,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 84 pts"
-  },
-  "Malik Benson": {
-    "ktc": 84,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 84 pts"
-  },
-  "Chris Brooks": {
-    "ktc": 81,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 81 pts"
-  },
-  "CJ Daniels": {
-    "ktc": 81,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 81 pts"
-  },
-  "Andrei Iosivas": {
-    "ktc": 81,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 81 pts"
-  },
-  "Jake Tonges": {
-    "ktc": 78,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 78 pts"
-  },
-  "Demarcus Robinson": {
-    "ktc": 76,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 76 pts"
+    "notes": "Live Consensus Value: 111 pts"
   },
   "Jaylin Lane": {
-    "ktc": 76,
+    "ktc": 108,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 76 pts"
+    "notes": "Live Consensus Value: 108 pts"
   },
-  "Cody White": {
-    "ktc": 73,
+  "Theo Johnson": {
+    "ktc": 108,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 73 pts"
-  },
-  "Quinn Ewers": {
-    "ktc": 73,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 73 pts"
-  },
-  "Will Kacmarek": {
-    "ktc": 70,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 70 pts"
-  },
-  "Will Howard": {
-    "ktc": 70,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 70 pts"
-  },
-  "Jaydon Blue": {
-    "ktc": 70,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 70 pts"
-  },
-  "Joshua Palmer": {
-    "ktc": 65,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 65 pts"
-  },
-  "Case Keenum": {
-    "ktc": 63,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 63 pts"
+    "notes": "Live Consensus Value: 108 pts"
   },
   "KaVontae Turpin": {
-    "ktc": 62,
+    "ktc": 106,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 62 pts"
+    "notes": "Live Consensus Value: 106 pts"
   },
-  "Erick All": {
-    "ktc": 62,
+  "DJ Giddens": {
+    "ktc": 105,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 62 pts"
+    "notes": "Live Consensus Value: 105 pts"
+  },
+  "Justin Joly": {
+    "ktc": 102,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 102 pts"
+  },
+  "Mack Hollins": {
+    "ktc": 102,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 102 pts"
+  },
+  "Jordan James": {
+    "ktc": 100,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 100 pts"
+  },
+  "Ty Johnson": {
+    "ktc": 99,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 99 pts"
+  },
+  "Reggie Virgil": {
+    "ktc": 97,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 97 pts"
+  },
+  "Noah Fant": {
+    "ktc": 95,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 95 pts"
+  },
+  "David Njoku": {
+    "ktc": 95,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 95 pts"
+  },
+  "Deion Burks": {
+    "ktc": 92,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 92 pts"
+  },
+  "Colbie Young": {
+    "ktc": 88,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 88 pts"
+  },
+  "Charlie Kolar": {
+    "ktc": 86,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 86 pts"
+  },
+  "Chimere Dike": {
+    "ktc": 85,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 85 pts"
   },
   "Ja'Tavion Sanders": {
+    "ktc": 84,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 84 pts"
+  },
+  "John Metchie": {
+    "ktc": 84,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 84 pts"
+  },
+  "Brenen Thompson": {
+    "ktc": 83,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 83 pts"
+  },
+  "Jaydon Blue": {
+    "ktc": 83,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 83 pts"
+  },
+  "Quinn Ewers": {
+    "ktc": 82,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 82 pts"
+  },
+  "Dont'e Thornton": {
+    "ktc": 77,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 77 pts"
+  },
+  "Jack Endries": {
+    "ktc": 75,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 75 pts"
+  },
+  "CJ Daniels": {
+    "ktc": 75,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 75 pts"
+  },
+  "Jake Tonges": {
+    "ktc": 75,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 75 pts"
+  },
+  "Joshua Palmer": {
+    "ktc": 73,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 73 pts"
+  },
+  "Athan Kaliakmanis": {
+    "ktc": 72,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 72 pts"
+  },
+  "Andrei Iosivas": {
+    "ktc": 71,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 71 pts"
+  },
+  "Cody White": {
+    "ktc": 69,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 69 pts"
+  },
+  "Joe Royer": {
+    "ktc": 69,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 69 pts"
+  },
+  "Will Howard": {
+    "ktc": 68,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 68 pts"
+  },
+  "Darnell Mooney": {
+    "ktc": 68,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 68 pts"
+  },
+  "Will Kacmarek": {
+    "ktc": 64,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 64 pts"
+  },
+  "Brycen Tremayne": {
     "ktc": 62,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 62 pts"
   },
-  "Spencer Rattler": {
+  "Jacob Saylors": {
     "ktc": 61,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 61 pts"
   },
-  "Noah Gray": {
+  "Jacob Cowing": {
+    "ktc": 61,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 61 pts"
+  },
+  "Jordan Whittington": {
     "ktc": 60,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 60 pts"
   },
-  "Joe Flacco": {
+  "Devontez Walker": {
     "ktc": 59,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 59 pts"
   },
-  "Ben Sinnott": {
+  "Riley Leonard": {
     "ktc": 58,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 58 pts"
   },
-  "John Metchie": {
-    "ktc": 55,
+  "Spencer Rattler": {
+    "ktc": 57,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 55 pts"
-  },
-  "KeAndre Lambert-Smith": {
-    "ktc": 54,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 54 pts"
-  },
-  "Eli Heidenreich": {
-    "ktc": 53,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 53 pts"
-  },
-  "Luke Musgrave": {
-    "ktc": 50,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 50 pts"
-  },
-  "Jacob Cowing": {
-    "ktc": 47,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 47 pts"
-  },
-  "Audric Estime": {
-    "ktc": 47,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 47 pts"
+    "notes": "Live Consensus Value: 57 pts"
   },
   "Garrett Nussmeier": {
-    "ktc": 46,
+    "ktc": 56,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 46 pts"
+    "notes": "Live Consensus Value: 56 pts"
   },
-  "Jordan Whittington": {
-    "ktc": 46,
+  "Chris Brooks": {
+    "ktc": 52,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 46 pts"
+    "notes": "Live Consensus Value: 52 pts"
   },
-  "Marquise Brown": {
+  "Taylen Green": {
+    "ktc": 52,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 52 pts"
+  },
+  "Sam Howell": {
+    "ktc": 47,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 47 pts"
+  },
+  "Jalen Tolbert": {
     "ktc": 45,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 45 pts"
   },
-  "Riley Leonard": {
-    "ktc": 45,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 45 pts"
-  },
-  "Skyy Moore": {
+  "Erick All": {
     "ktc": 44,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 44 pts"
   },
-  "Taylen Green": {
+  "Case Keenum": {
     "ktc": 43,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 43 pts"
   },
-  "Tahj Brooks": {
-    "ktc": 43,
+  "Jonnu Smith": {
+    "ktc": 35,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 43 pts"
+    "notes": "Live Consensus Value: 35 pts"
   },
   "Brashard Smith": {
-    "ktc": 42,
+    "ktc": 32,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 42 pts"
+    "notes": "Live Consensus Value: 32 pts"
   },
-  "Athan Kaliakmanis": {
-    "ktc": 39,
+  "Laquon Treadwell": {
+    "ktc": 31,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 39 pts"
-  },
-  "Tai Felton": {
-    "ktc": 37,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 37 pts"
-  },
-  "Elijah Higgins": {
-    "ktc": 36,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 36 pts"
-  },
-  "Kyle McCord": {
-    "ktc": 25,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 25 pts"
+    "notes": "Live Consensus Value: 31 pts"
   },
   "Mitchell Trubisky": {
+    "ktc": 29,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 29 pts"
+  },
+  "Khalil Herbert": {
+    "ktc": 28,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 28 pts"
+  },
+  "Tyrod Taylor": {
+    "ktc": 28,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 28 pts"
+  },
+  "Audric Estime": {
+    "ktc": 27,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 27 pts"
+  },
+  "Demarcus Robinson": {
+    "ktc": 26,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 26 pts"
+  },
+  "KeAndre Lambert-Smith": {
     "ktc": 25,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 25 pts"
   },
-  "Michael Trigg": {
+  "Gardner Minshew": {
     "ktc": 24,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 24 pts"
   },
-  "Jalen Tolbert": {
-    "ktc": 21,
+  "Jawhar Jordan": {
+    "ktc": 24,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 21 pts"
+    "notes": "Live Consensus Value: 24 pts"
   },
   "Jarrett Stidham": {
+    "ktc": 23,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 23 pts"
+  },
+  "Elijah Higgins": {
+    "ktc": 22,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 22 pts"
+  },
+  "Davis Mills": {
     "ktc": 20,
     "action": "Trade Asset",
     "notes": "Live Consensus Value: 20 pts"
   },
-  "Odell Beckham": {
-    "ktc": 17,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 17 pts"
-  },
-  "Zach Ertz": {
-    "ktc": 16,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 16 pts"
-  },
-  "Jawhar Jordan": {
-    "ktc": 16,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 16 pts"
-  },
-  "Sam Howell": {
-    "ktc": 13,
-    "action": "Trade Asset",
-    "notes": "Live Consensus Value: 13 pts"
-  },
   "Foster Moreau": {
-    "ktc": 4,
+    "ktc": 19,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 4 pts"
+    "notes": "Live Consensus Value: 19 pts"
   },
-  "Austin Hooper": {
-    "ktc": 2,
+  "Tai Felton": {
+    "ktc": 19,
     "action": "Trade Asset",
-    "notes": "Live Consensus Value: 2 pts"
+    "notes": "Live Consensus Value: 19 pts"
+  },
+  "Dillon Gabriel": {
+    "ktc": 18,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 18 pts"
+  },
+  "Kyle McCord": {
+    "ktc": 11,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 11 pts"
+  },
+  "Luke Musgrave": {
+    "ktc": 9,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 9 pts"
+  },
+  "Brevyn Spann-Ford": {
+    "ktc": 7,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 7 pts"
+  },
+  "Jeremy Ruckert": {
+    "ktc": 3,
+    "action": "Trade Asset",
+    "notes": "Live Consensus Value: 3 pts"
   },
   "Kenneth Walker III": {
     "ktc": 9012,
